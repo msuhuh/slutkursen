@@ -1,5 +1,7 @@
 import pandas as pd
 
+
+
 # Function to create a FASTA file from an Excel file
 def create_fasta_from_excel(excel_file, output_fasta):
     # Load the Excel file into a pandas DataFrame
@@ -10,13 +12,21 @@ def create_fasta_from_excel(excel_file, output_fasta):
         # Loop through each row of the dataframe
         for index, row in df.iterrows():
             # Extract the required columns (adjust indexing based on 0-indexing in pandas)
-            peptide_id = row[0]  # 1st column (ID)
-            peptide_sequence = row[10]  # 11th column (peptide sequence)
-            label = row[19]  # 20th column (label)
+            peptide_id = row['Id']  # 'Id' column for peptide ID
+            peptide_sequence = row['virus_collapsed_hit']  # 'virus_collapsed_hit' column for peptide sequence
+            n_acid = row['nucleic_acid']  # 'nucleic_acid' column for label
+            virus_family = row['nucleic_acid'] 
+            human_bait = row['bait']
+            # Write the FASTA format entry
+            fasta_file.write(f">{peptide_id} | {1} | {n_acid}\n")
+            fasta_file.write(f"{peptide_sequence}\n")
 
             # Write the FASTA format entry
             fasta_file.write(f">{peptide_id} | {1} | {label}\n")
             fasta_file.write(f"{peptide_sequence}\n")
 
 # Example usage
-create_fasta_from_excel('input_data.xlsx', 'output_sequences.fasta')
+path_input = 'juliaancker/Desktop/projekt_bio_inf/input_data.xlsx'
+
+
+create_fasta_from_excel(path_input, 'output_sequences.fasta')
