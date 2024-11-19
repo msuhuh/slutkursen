@@ -15,15 +15,12 @@ def create_fasta_from_excel(excel_file, output_fasta):
             peptide_id = row['Id']  # 'Id' column for peptide ID
             peptide_sequence = row['virus_collapsed_hit']  # 'virus_collapsed_hit' column for peptide sequence
             n_acid = row['nucleic_acid']  # 'nucleic_acid' column for label
-            virus_family = row['nucleic_acid'] 
+            virus_family = row['virus_taxa_family'] 
             human_bait = row['bait']
             # Write the FASTA format entry
             fasta_file.write(f">{peptide_id} | {1} | {n_acid}\n")
             fasta_file.write(f"{peptide_sequence}\n")
 
-            # Write the FASTA format entry
-            fasta_file.write(f">{peptide_id} | {1} | {label}\n")
-            fasta_file.write(f"{peptide_sequence}\n")
 
 # Example usage
 path_input = 'juliaancker/Desktop/projekt_bio_inf/input_data.xlsx'
