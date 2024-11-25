@@ -1,9 +1,22 @@
+'''
+Thic script is a modified version of the propagation_virus.py file from 
+the paper 'Large-scale phage-based screening reveals extensive pan-viral 
+mimicry of host short linear motifs' by Mihalič et al. Nature 2023
+
+Modified by: Minna Sayehban, student at Uppsala University
+E-mail: minna.sayehban.1224@student.uu.se
+Date: 25-11-2024
+'''
+
+############ IMPORT & LOAD NECESSARY MODULES ################
 from igraph import *
 import numpy as np
 from scipy.stats import *
 import os,sys,scipy,math
 from scipy.spatial.distance import jensenshannon
 import fisher_test_virus
+from win32 import win32file
+win32file._setmaxstdio(2048)
 
 
 #load data
@@ -45,6 +58,7 @@ def perform_rwr(network):
 	reset_vertex=np.zeros(number_of_nodes)
 	for j in network.vs.select(name_in=seeds.keys()):
 		reset_vertex[j.index]=seeds[j["name"]]
+		
 	#this is the function for the RWR
 	pagerank=np.array(network.personalized_pagerank(reset=reset_vertex,directed=False, damping=damping, weights='weight'))
 
@@ -54,9 +68,19 @@ def perform_rwr(network):
 
 	#here we start the randomization (1000 network with the same seed nodes (is the same function above but looping around 1000 random network)
 	for ii in range(1000):
-	#for ii in range(500):	
-		print("ii in random: ", ii)
-		network_random = Graph.Read_Ncol("../networks/"+sim_type+"_random/"+str(ii)+".txt", weights=True, directed=False)
+		file_path = os.path.join("..", "networks", f"{sim_type}_random", f"{ii}.txt")
+		print(f"Trying to read file: {file_path}")
+		try:
+			print(f"Processing file: {file_path}")
+			network_random = Graph.Read_Ncol(file_path, weights=True, directed=False)
+			print(f"Graph processed: {network_random.summary()}")
+			del network_random  # Free memory immediately
+		except Exception as e:
+			print(f"Error processing file: {file_path}. Error: {e}")
+			continue
+
+		network_random = Graph.Read_Ncol(os.path.join("..", "networks", f"{sim_type}_random", f"{ii}.txt"), weights=True, directed=False)
+
 		random_nodes=network_random.vs["name"]
 		reset_vertex=[0.0]*number_of_nodes
 		for j in network_random.vs.select(name_in=seeds.keys()):
@@ -69,8 +93,7 @@ def perform_rwr(network):
 			if empirical_values[i[1]]>prandom[i[0]]:
 				pvalues[i[1]]+=1
 
-
-	os.makedirs(os.path.join(res_folder, test), exist_ok=True)
+	os.makedirs(os.path.join(res_folder, test),exist_ok=True)
 
 	#saving the results
 	f1=open(res_folder+"/"+test+"/rwr.txt","w")
