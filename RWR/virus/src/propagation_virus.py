@@ -1,31 +1,9 @@
-'''
-Thic code uses the .... 
-Originally developed by: .... 
-Modified by: Minna Sayehban 25-11-2024
-'''
-
-
-############ IMPORT & LOAD NECESSARY MODULES ################
 from igraph import *
 import numpy as np
 from scipy.stats import *
 import os,sys,scipy,math
 from scipy.spatial.distance import jensenshannon
 import fisher_test_virus
-from win32 import win32file
-win32file._setmaxstdio(2048)
-
-
-############# GET THE VIRUS FAMILIES ############
-def load_family_to_taxa_mapping(family_file):
-    family_to_taxa = {}
-    with open(family_file, 'r') as f:
-        for line in f:
-            family, taxa = line.strip().split("\t")
-            if family not in family_to_taxa:
-                family_to_taxa[family] = []
-            family_to_taxa[family].append(taxa)
-    return family_to_taxa
 
 
 #load data
@@ -76,19 +54,9 @@ def perform_rwr(network):
 
 	#here we start the randomization (1000 network with the same seed nodes (is the same function above but looping around 1000 random network)
 	for ii in range(1000):
-		file_path = os.path.join("..", "networks", f"{sim_type}_random", f"{ii}.txt")
-		print(f"Trying to read file: {file_path}")
-		try:
-			print(f"Processing file: {file_path}")
-			network_random = Graph.Read_Ncol(file_path, weights=True, directed=False)
-			print(f"Graph processed: {network_random.summary()}")
-			del network_random  # Free memory immediately
-		except Exception as e:
-			print(f"Error processing file: {file_path}. Error: {e}")
-			continue
-
-		network_random = Graph.Read_Ncol(os.path.join("..", "networks", f"{sim_type}_random", f"{ii}.txt"), weights=True, directed=False)
-
+	#for ii in range(500):	
+		print("ii in random: ", ii)
+		network_random = Graph.Read_Ncol("../networks/"+sim_type+"_random/"+str(ii)+".txt", weights=True, directed=False)
 		random_nodes=network_random.vs["name"]
 		reset_vertex=[0.0]*number_of_nodes
 		for j in network_random.vs.select(name_in=seeds.keys()):
@@ -101,7 +69,8 @@ def perform_rwr(network):
 			if empirical_values[i[1]]>prandom[i[0]]:
 				pvalues[i[1]]+=1
 
-	os.makedirs(os.path.join(res_folder, test),exist_ok=True)
+
+	os.makedirs(os.path.join(res_folder, test), exist_ok=True)
 
 	#saving the results
 	f1=open(res_folder+"/"+test+"/rwr.txt","w")
@@ -114,6 +83,7 @@ def perform_rwr(network):
 	enriched_proteins=[]
 	for i in pvalues:
 		#990 corresponds to a pvalue<0.01
+		# 495 is equivalent if 500 tests are used.
 		if pvalues[i]>990:
 			enriched_proteins.append(i)
 		f1.write(i+"\t"+str(pvalues[i])+"\n")
@@ -139,9 +109,6 @@ if __name__ == '__main__':
 	test=sys.argv[1]
 	res_folder=sys.argv[2]
 	data_folder=sys.argv[3]
-	family_file = sys.argv[4]
-
-	family_to_taxa = load_family_to_taxa_mapping(family_file)
 
 	# loading empirical network
 	network = Graph.Read_Ncol("../networks/"+sim_type+".txt", weights=True, directed=False)
