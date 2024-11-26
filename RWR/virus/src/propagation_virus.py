@@ -49,25 +49,26 @@ def perform_rwr(network):
 	graph_nodes=network.vs["name"]
 	number_of_nodes=network.vcount()
 
-	#here I initialize the vectors where the empirical_values and pvalues are stores
+	# CREATE VECTORS FOR EMPIRICAL- AND P-VALUES
 	empirical_values={}
 	pvalues={}
 	for i in network.vs:
 		pvalues[i["name"]]=0.0
 		empirical_values[i["name"]]=0.0
 
-	#here the values are assigned to the seed nodes
+	# ASSIGN VALUES FOR SEED NODES
 	reset_vertex=np.zeros(number_of_nodes)
 	for j in network.vs.select(name_in=seeds.keys()):
 		reset_vertex[j.index]=seeds[j["name"]]
-	#this is the function for the RWR
+	
+	# FUNCTION FOR RWR
 	pagerank=np.array(network.personalized_pagerank(reset=reset_vertex,directed=False, damping=damping, weights='weight'))
 
-	#storing the values of the empirical
+	# STORE VALUES FOR EMPIRICAL RUN
 	for i in enumerate(graph_nodes):
 		empirical_values[graph_nodes[i[0]]]=pagerank[i[0]]
 
-	#here we start the randomization (1000 network with the same seed nodes (is the same function above but looping around 1000 random network)
+	# RUN RANDOMISATION WITH 1000 NETWORK
 	for ii in range(1000):
 		file_path = os.path.join("..", "networks", f"{sim_type}_random", f"{ii}.txt")
 		print(f"Trying to read file: {file_path}")
@@ -75,7 +76,7 @@ def perform_rwr(network):
 			print(f"Processing file: {file_path}")
 			network_random = Graph.Read_Ncol(file_path, weights=True, directed=False)
 			print(f"Graph processed: {network_random.summary()}")
-			del network_random  # Free memory immediately
+			del network_random
 		except Exception as e:
 			print(f"Error processing file: {file_path}. Error: {e}")
 			continue
@@ -86,34 +87,34 @@ def perform_rwr(network):
 		reset_vertex=[0.0]*number_of_nodes
 		for j in network_random.vs.select(name_in=seeds.keys()):
 			reset_vertex[j.index]=seeds[j["name"]]
-		#RWR on random network
+
+		# RUN RWR ON RANDOM NETWORK
 		prandom=np.array(network_random.personalized_pagerank(reset=reset_vertex,directed=False, damping=damping, weights='weight'))
 
-		#here I count how many times the empirical rwr distribution is greater than the random
+		# COUNT WHEN EMPIRICAL RWR DISTR. > RANDOM RWR DISTR.
 		for i in enumerate(random_nodes):
 			if empirical_values[i[1]]>prandom[i[0]]:
 				pvalues[i[1]]+=1
 
 	os.makedirs(os.path.join(res_folder, test),exist_ok=True)
 
-	#saving the results
+	# SAVE RESULTS
 	f1=open(res_folder+test+"/rwr.txt","w")
 	for i in empirical_values:
 		f1.write(i+"\t"+str(empirical_values[i])+"\n")
 	f1.close()
 
 
+	# 990/1000 = 0.01
 	f1=open(res_folder+test+"/pvalues.txt","w")
 	enriched_proteins=[]
 	for i in pvalues:
-		#990 corresponds to a pvalue<0.01
-		# 495 is equivalent if 500 tests are used.
 		if pvalues[i]>990:
 			enriched_proteins.append(i)
 		f1.write(i+"\t"+str(pvalues[i])+"\n")
 	f1.close()
 
-	#performing enrichement analysis
+	# PERFORM ENRICHMENT ANALYSIS
 	enriched_proteins=enriched_proteins+list(seeds.keys())
 	folder= res_folder+test+"/fisher/"
 	if not os.path.exists(folder):
@@ -126,15 +127,16 @@ def perform_rwr(network):
 	f1.close()
 
 if __name__ == '__main__':
-	#parameters
+	# SET PARAMETERS
 	sim_type="TCSS"
 	damping=0.7
-	#this is the file containing the uniprot id involved in a side effect
+	
+	# SET VARIABLES
 	data_folder=sys.argv[1]
 	test=sys.argv[2]
 	res_folder=sys.argv[3]
 
-	# loading empirical network
+	# LOAD EMPIRICAL NETWORK
 	network = Graph.Read_Ncol("../networks/"+sim_type+".txt", weights=True, directed=False)
 	graph_nodes=network.vs["name"]
 	number_of_nodes=network.vcount()
