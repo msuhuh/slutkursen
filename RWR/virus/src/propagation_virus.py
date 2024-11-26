@@ -1,14 +1,15 @@
 '''
-Thic script is a modified version of the propagation_virus.py file from 
+This script is a modified version of the propagation_virus.py file from 
 the paper 'Large-scale phage-based screening reveals extensive pan-viral 
-mimicry of host short linear motifs' by Mihalič et al. Nature 2023
+mimicry of host short linear motifs' by Mihalič et al. Nature 2023, in 
+order to run the algorithm for each virus family instead.
 
 Modified by: Minna Sayehban, student at Uppsala University
-E-mail: minna.sayehban.1224@student.uu.se
-Date: 25-11-2024
+E-mail: minna.sayehban.1224@student.uu.se or minna.sayehban@gmail.com
+Date: 26-11-2024
 '''
 
-############ IMPORT & LOAD NECESSARY MODULES ################
+############### IMPORT & LOAD NECESSARY MODULES ################
 from igraph import *
 import numpy as np
 from scipy.stats import *
@@ -19,11 +20,10 @@ from win32 import win32file
 win32file._setmaxstdio(2048)
 
 
-#load data
+############# GET STARTING DATA POINTS (SEED NODES) ##############
 def load_seeds():
-	data_path="../data/datasets/"+data_folder+"/"
-	#load the seeds
-	f1=open(data_path+test)
+
+	f1=open(data_folder+test)
 	seq=f1.readline()
 	seeds={}
 	while(seq!=""):
@@ -41,6 +41,8 @@ def load_seeds():
 		seq=f1.readline()
 	return seeds,uniprot_to_gene
 
+
+########### PERFORM RANDOM NETWORK ############
 def perform_rwr(network):
 	number_of_nodes=network.vcount()
 
@@ -58,7 +60,6 @@ def perform_rwr(network):
 	reset_vertex=np.zeros(number_of_nodes)
 	for j in network.vs.select(name_in=seeds.keys()):
 		reset_vertex[j.index]=seeds[j["name"]]
-		
 	#this is the function for the RWR
 	pagerank=np.array(network.personalized_pagerank(reset=reset_vertex,directed=False, damping=damping, weights='weight'))
 
@@ -96,13 +97,13 @@ def perform_rwr(network):
 	os.makedirs(os.path.join(res_folder, test),exist_ok=True)
 
 	#saving the results
-	f1=open(res_folder+"/"+test+"/rwr.txt","w")
+	f1=open(res_folder+test+"/rwr.txt","w")
 	for i in empirical_values:
 		f1.write(i+"\t"+str(empirical_values[i])+"\n")
 	f1.close()
 
 
-	f1=open(res_folder+"/"+test+"/pvalues.txt","w")
+	f1=open(res_folder+test+"/pvalues.txt","w")
 	enriched_proteins=[]
 	for i in pvalues:
 		#990 corresponds to a pvalue<0.01
@@ -114,7 +115,7 @@ def perform_rwr(network):
 
 	#performing enrichement analysis
 	enriched_proteins=enriched_proteins+list(seeds.keys())
-	folder= res_folder+"/"+test+"/fisher/"
+	folder= res_folder+test+"/fisher/"
 	if not os.path.exists(folder):
 		os.makedirs(folder)
 	fisher_test_virus.load(list(set(enriched_proteins)),0.05, ["RT"],folder,list(seeds.keys()),uniprot_to_gene,"proteome")
@@ -129,9 +130,9 @@ if __name__ == '__main__':
 	sim_type="TCSS"
 	damping=0.7
 	#this is the file containing the uniprot id involved in a side effect
-	test=sys.argv[1]
-	res_folder=sys.argv[2]
-	data_folder=sys.argv[3]
+	data_folder=sys.argv[1]
+	test=sys.argv[2]
+	res_folder=sys.argv[3]
 
 	# loading empirical network
 	network = Graph.Read_Ncol("../networks/"+sim_type+".txt", weights=True, directed=False)
