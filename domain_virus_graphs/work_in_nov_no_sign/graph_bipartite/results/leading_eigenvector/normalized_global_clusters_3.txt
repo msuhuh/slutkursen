@@ -1,0 +1,11 @@
+Original Graph Scores (clusters=3):
+Modularity: 0.3439
+Silhouette: -0.1080
+Davies_bouldin_index: 2.8143
+Conductance: 0.1400
+
+Comparison Results:
+Metric 'Modularity' - Random networks scored better 282 times.
+Metric 'Silhouette' - Random networks scored better 940 times.
+Metric 'Davies_bouldin_index' - Random networks scored better 39 times.
+Metric 'Conductance' - Random networks scored better 976 times.
