@@ -1,0 +1,12 @@
+python
+numpy
+igraph
+scipy
+nimfa
+networkx
+seaborn
+matplotlib
+pandas
+scikit-learn
+
+
