@@ -163,7 +163,7 @@ qt = QuantileTransformer(n_quantiles=min(263, len(mat)), random_state=0)
 mat = qt.fit_transform(mat)
 
 # Perform the NMF
-rank = min(5, mat.shape[1])
+rank = min(6, mat.shape[1])
 nmf = nimfa.Nmf(mat, seed='nndsvd', max_iter=500, rank=rank)
 nmf_fit = nmf()
 w = nmf_fit.basis()
@@ -205,7 +205,7 @@ for cluster_id, cluster_families in clusters.items():
             seq = f.readline()
             while seq:
                 fields = seq.strip().split("\t")
-                reactome_id = fields[0]
+                reactome_id = fields[2]
                 proteins = fields[3:]  # Assuming the proteins are listed after the third column
                 all_annot.add(reactome_id)
 
@@ -218,30 +218,27 @@ for cluster_id, cluster_families in clusters.items():
 data = []
 row = []
 for cluster_id, family_annotations in annotation_family_virus.items():
-    temp = np.zeros(len(all_annot))
+    temp = np.zeros(len(all_annot))  # Reset temp for each cluster
     row.append(cluster_id + 1)
 
     for reactome_id in all_annot:
-        relative_freqs = []
-        global_count = 0
-        total_family = 0
+        global_count = 0  # Count how many families in the cluster have this pathway
 
         for family, annotations in family_annotations.items():
             if reactome_id in annotations:
-                global_count += annotations[reactome_id]
-            total_family += 1
-            relative_freqs.append(annotations.get(reactome_id, 0) / total_family)
+                global_count += 1
 
-        # Compute thresholds for heatmap inclusion
-        mean_relative_freq = np.mean(relative_freqs) if relative_freqs else 0
-        global_freq = global_count / total_family if total_family else 0
-        if mean_relative_freq > 0.2 and global_freq > 0.2:
+        # Compute global frequency
+        global_freq = global_count / len(family_annotations)  # Fraction of families in the cluster with this pathway
+
+        # Apply condition to include only pathways meeting the thresholds
+        if global_freq > 0.3:  # Adjust threshold as needed
             idx = list(all_annot).index(reactome_id)
-            temp[idx] = mean_relative_freq
+            temp[idx] = global_freq  # Use global frequency directly
 
-    temp[temp == 0] = np.nan
+    # Only include pathways that meet the conditions
+    temp[temp == 0] = np.nan  # Use NaN for pathways that didn't meet the condition
     data.append(temp)
-
 
 # Convert the set of features to a sorted list
 all_annot_list = sorted(all_annot)  # Ensure consistent order
@@ -254,23 +251,32 @@ print("Feature length (all_annot_list):", len(all_annot_list))
 # Construct DataFrame for the heatmap
 df = pd.DataFrame(data, index=row, columns=all_annot_list)
 
-# Split the DataFrame into chunks based on rows
-rows_per_chunk = 20  # Adjust as needed
-num_chunks = math.ceil(df.shape[0] / rows_per_chunk)
+# Remove columns (pathways) that are entirely NaN (not enriched in any cluster)
+df = df.dropna(axis=1, how='all')
 
-for i in range(num_chunks):
-    start_row = i * rows_per_chunk
-    end_row = min(start_row + rows_per_chunk, df.shape[0])
-    df_chunk = df.iloc[start_row:end_row, :]  # Slice rows
+# Transpose the DataFrame to make the heatmap vertical
+df = df.T
 
-    # Create heatmap for this chunk
-    plt.figure(figsize=(16, 8))
-    sns.heatmap(df_chunk, linewidths=.01, xticklabels=True, yticklabels=True, square=True, robust=True,
-                linecolor="black", cmap='viridis_r', cbar_kws={'label': 'Relative Frequency'})
+# Create a vertical heatmap
+plt.figure(figsize=(10, 20))  # Adjust the figure size for vertical layout
+sns.heatmap(
+    df, 
+    linewidths=.01, 
+    xticklabels=True, 
+    yticklabels=True, 
+    square=True, 
+    robust=True,
+    linecolor="black", 
+    cmap='viridis_r', 
+    cbar_kws={'label': 'Enrichment score'}  # Update label to reflect "Global Frequency"
+)
 
-    plt.xlabel("Clusters")
-    plt.ylabel("Reactome Terms (Chunk {})".format(i + 1))
-    plt.title("Reactome Heatmap - Chunk {}".format(i + 1))
-    plt.tight_layout()
-    plt.savefig(f"../test_results/figure_chunk_{i + 1}.pdf")
-    plt.show()
+plt.xlabel("Cluster ID")
+plt.ylabel("Pathway")
+plt.title("Reactome)")
+plt.tight_layout()
+
+# Save the heatmap
+plt.savefig("../test_results/reactome_heatmap.pdf")
+plt.show()
+
