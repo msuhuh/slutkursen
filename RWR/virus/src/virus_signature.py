@@ -19,7 +19,16 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import Counter
-import math
+
+
+# Check for command-line arguments
+if len(sys.argv) < 2:
+    print("Usage: python virus_signature.py <global_frequency_threshold>")
+    sys.exit(1)
+
+# Parse the threshold from command-line arguments
+threshold = float(sys.argv[1])  # Example: python virus_signature.py 0.3
+print(f"Using threshold: {threshold}")
 
 # Load PPI network
 net = nx.read_weighted_edgelist("../networks/TCSS.txt")
@@ -214,11 +223,11 @@ for cluster_id, cluster_families in clusters.items():
                 annotation_family_virus[cluster_id][family].update([reactome_id])
                 seq = f.readline()
 
-# Generate Data for Heatmap
+# Generate Data for CSV
 data = []
 row = []
 for cluster_id, family_annotations in annotation_family_virus.items():
-    temp = np.zeros(len(all_annot))  # Reset temp for each cluster
+    temp = {}
     row.append(cluster_id + 1)
 
     for reactome_id in all_annot:
@@ -231,52 +240,42 @@ for cluster_id, family_annotations in annotation_family_virus.items():
         # Compute global frequency
         global_freq = global_count / len(family_annotations)  # Fraction of families in the cluster with this pathway
 
-        # Apply condition to include only pathways meeting the thresholds
-        if global_freq > 0.3:  # Adjust threshold as needed
-            idx = list(all_annot).index(reactome_id)
-            temp[idx] = global_freq  # Use global frequency directly
+        # Apply the user-specified threshold
+        if global_freq >= threshold:
+            temp[reactome_id] = global_freq
 
-    # Only include pathways that meet the conditions
-    temp[temp == 0] = np.nan  # Use NaN for pathways that didn't meet the condition
-    data.append(temp)
+    data.append({"cluster": f"C{cluster_id + 1}", "pathways": temp})
 
-# Convert the set of features to a sorted list
-all_annot_list = sorted(all_annot)  # Ensure consistent order
+# Prepare the data for CSV
+# Collect all pathways across clusters (to ensure consistency in rows)
+all_pathways = set()
+for cluster_data in data:
+    all_pathways.update(cluster_data["pathways"].keys())
+all_pathways = sorted(all_pathways)  # Sort pathways alphabetically or as needed
 
-# Check alignment between data and row/column labels
-print("Data shape:", np.array(data).shape)
-print("Row length (clusters):", len(row))
-print("Feature length (all_annot_list):", len(all_annot_list))
+# Prepare a DataFrame with pathways as rows and clusters as columns
+cluster_ids = [f"C{cluster_id + 1}" for cluster_id in range(len(annotation_family_virus))]
+df_data = {cluster: [] for cluster in cluster_ids}
 
-# Construct DataFrame for the heatmap
-df = pd.DataFrame(data, index=row, columns=all_annot_list)
+for pathway in all_pathways:
+    for cluster_data in data:
+        cluster_id = cluster_data["cluster"]
+        df_data[cluster_id].append(cluster_data["pathways"].get(pathway, None))  # None for missing values
 
-# Remove columns (pathways) that are entirely NaN (not enriched in any cluster)
-df = df.dropna(axis=1, how='all')
+# Create a DataFrame
+df = pd.DataFrame(df_data, index=all_pathways)
+df.index.name = "Pathway"
 
-# Transpose the DataFrame to make the heatmap vertical
-df = df.T
+# Convert the threshold to a string with a fixed number of decimal places (e.g., 1 decimal place)
+threshold_str = str(threshold).replace('.', '_')  # Replacing the dot with an underscore for filename compatibility
 
-# Create a vertical heatmap
-plt.figure(figsize=(10, 20))  # Adjust the figure size for vertical layout
-sns.heatmap(
-    df, 
-    linewidths=.01, 
-    xticklabels=True, 
-    yticklabels=True, 
-    square=True, 
-    robust=True,
-    linecolor="black", 
-    cmap='viridis_r', 
-    cbar_kws={'label': 'Enrichment score'}  # Update label to reflect "Global Frequency"
-)
+# Create the output CSV filename with the threshold included
+output_csv = f"../test_results/c_heatmap_data_threshold_{threshold_str}.csv"
 
-plt.xlabel("Cluster ID")
-plt.ylabel("Pathway")
-plt.title("Reactome)")
-plt.tight_layout()
+# Save DataFrame to CSV
+df.to_csv(output_csv, na_rep="")  # Empty cell for pathways not present in a cluster
 
-# Save the heatmap
-plt.savefig("../test_results/reactome_heatmap.pdf")
-plt.show()
+print(f"Data saved to {output_csv}")
+
+
 
