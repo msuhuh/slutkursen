@@ -6,7 +6,7 @@ human proteins interacting with the virus taxa within that family.
 Written by: Minna Sayehban, student at Uppsala University
 E-mail: minna.sayehban.1224@student.uu.se or minna.sayehban@gmail.com
 Created: 26-11-2024
-Modified: 19-12-2024
+Last modified: 19-12-2024
 '''
 
 ############### IMPORT MODULES ###############
