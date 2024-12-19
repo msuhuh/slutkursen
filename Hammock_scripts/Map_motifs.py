@@ -112,17 +112,18 @@ viral_file = '20241119_Compiled_viral_results_compiled.xlsx' # Relace with your 
 
 # Create dataframes 
 
-df1 = pd.read_excel(bait_file, usecols=['bait_id', 'slimfinder_motif_regex']) # Create dataframe with the bait metadata, only need collumns bait id that contains the bait if and slimfinder_motif_regex that contains the expected motif
-df2 = pd.read_excel(viral_file, usecols=['human_bait_id', 'virus_collapsed_hit']) # Create dataframe with human bait id, 
-df3 = pd.read_excel(viral_file) 
+df1 = pd.read_excel(bait_file, usecols=['bait_id', 'slimfinder_motif_regex']) # Create dataframe with the human bait metadata, only need collumns bait id that contains the bait if and slimfinder_motif_regex that contains the expected motif
+df2 = pd.read_excel(viral_file, usecols=['human_bait_id', 'virus_collapsed_hit']) # Create dataframe with human bait id and cirus collapsed hit from virus data. 
+df3 = pd.read_excel(viral_file)  # Create data with entire viral file
 
-df1 = df1[df1['slimfinder_motif_regex'].notna() & (df1['slimfinder_motif_regex'] != '')]
-bait_to_motif = df1.set_index('bait_id')['slimfinder_motif_regex'].to_dict()
+df1 = df1[df1['slimfinder_motif_regex'].notna() & (df1['slimfinder_motif_regex'] != '')] # Removes the columns that lack motifs from the metadata
+bait_to_motif = df1.set_index('bait_id')['slimfinder_motif_regex'].to_dict() # Create a dictionary with the human bait ids as keys and the motifs to be mapped as values
 
 
-motifs = []
-scores = []
-slimfinder_motif_regexs =[]
+motifs = [] # Create empty motif list
+scores = [] # Create empty score list
+slimfinder_motif_regexs =[] # Create empty motif list
+
 for _, row in df2.iterrows():
     bait_id = row['human_bait_id']
     virus_hit = row['virus_collapsed_hit']
