@@ -4,7 +4,7 @@ This repository consists of the scripts and data used by Group 4 in the course A
 
 - A_XXX for using the motif clustering algotithm
 - B_XXX for using the virus-human PPI algorithms
-- C_RWR for using the human PPI algorthm. 
+- C_RWR for using the human PPI algorthm
 
 The shared code is written by:
 Julia Ancker, Alexander Blomlöf, Minna Sayehban
