@@ -1,7 +1,5 @@
 import pandas as pd
 
-
-
 # Function to create a FASTA file from an Excel file
 def create_fasta_from_excel(excel_file, output_fasta):
     # Load the Excel file into a pandas DataFrame
