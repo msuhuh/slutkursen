@@ -1,3 +1,0 @@
-Unique pairs with p-value < 0.05:
-Maximum possible hit (with accounting for N clusters): 122.33611111111146
-Threshold: 6.116805555555573
