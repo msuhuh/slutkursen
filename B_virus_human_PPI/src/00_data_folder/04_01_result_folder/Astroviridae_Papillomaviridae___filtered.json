@@ -1,0 +1,214 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-1632852",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 133,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P60520",
+            "O95166",
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "GABARAPL2",
+            "GABARAP",
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.9e-07,
+        "fdr": 0.00057,
+        "description": "Macroautophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-437239",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P63010",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "AP2B1",
+            "RDX"
+        ],
+        "p_value": 2.49e-07,
+        "fdr": 0.00057,
+        "description": "Recycling pathway of L1"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-422475",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 551,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P16333",
+            "P63010",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "NCK1",
+            "AP2B1",
+            "RDX"
+        ],
+        "p_value": 1.87e-05,
+        "fdr": 0.0075,
+        "description": "Axon guidance"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8854214",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 44,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P60520",
+            "O95166",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "GABARAPL2",
+            "GABARAP",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.64e-05,
+        "fdr": 0.0075,
+        "description": "TBC/RABGAPs"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662361",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.93e-05,
+        "fdr": 0.0084,
+        "description": "Sensory processing of sound by outer hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-199991",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 626,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P60520",
+            "O95166",
+            "O00499",
+            "Q15811",
+            "P63010",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "GABARAPL2",
+            "GABARAP",
+            "BIN1",
+            "ITSN1",
+            "AP2B1",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.8e-05,
+        "fdr": 0.0097,
+        "description": "Membrane Trafficking"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662360",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 68,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.68e-05,
+        "fdr": 0.0122,
+        "description": "Sensory processing of sound by inner hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8934903",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 8.37e-05,
+        "fdr": 0.0149,
+        "description": "Receptor Mediated Mitophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-373753",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9Y5K6",
+            "P16333"
+        ],
+        "preferredNames": [
+            "CD2AP",
+            "NCK1"
+        ],
+        "p_value": 0.00032,
+        "fdr": 0.0479,
+        "description": "Nephrin family interactions"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5205685",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 0.00029,
+        "fdr": 0.0479,
+        "description": "PINK1-PRKN Mediated Mitophagy"
+    }
+]

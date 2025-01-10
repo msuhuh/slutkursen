@@ -1,0 +1,7 @@
+p value was set to: 0.01.
+5000 random graphs were analyzed, threshold became: 50
+Cluster results (TRUE/FALSE based on threshold, followed by the cluster and count):
+
+TRUE: Cluster = [Paramyxoviridae, Poxviridae, Arenaviridae, Papillomaviridae, Adenoviridae, Reoviridae, Retroviridae, Rhabdoviridae, Coronaviridae, Filoviridae, Picornaviridae, Herpesviridae, Caliciviridae, Parvoviridae, Hepeviridae, Polyomaviridae], Count = 9
+FALSE: Cluster = [Pneumoviridae, Nairoviridae], Count = 2201
+FALSE: Cluster = [Togaviridae, Astroviridae], Count = 1534

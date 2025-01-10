@@ -1,0 +1,194 @@
+
+Shared 2-tuples:
+Combination: [Adenoviridae, Filoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Anelloviridae, Nairoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Caliciviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Coronaviridae, Paramyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Orthomyxoviridae, Paramyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Hepeviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Nairoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Nairoviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Kolmioviridae, Papillomaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_
+Combination: [Caliciviridae, Paramyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, walktrap2_
+Combination: [Coronaviridae, Orthomyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Arenaviridae, Pneumoviridae] is shared among Cluster algorithms: fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Nairoviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Astroviridae, Togaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, louvain_
+Combination: [Caliciviridae, Coronaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Coronaviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Paramyxoviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Astroviridae, Papillomaviridae] is shared among Cluster algorithms: fastgreedy_, infomap10_, louvain_
+Combination: [Adenoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 3-tuples:
+Combination: [Adenoviridae, Filoviridae, Herpesviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Anelloviridae, Hepeviridae, Nairoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Hepeviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Nairoviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Nairoviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Coronaviridae, Orthomyxoviridae, Paramyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Hepeviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Nairoviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Nairoviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Nairoviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Caliciviridae, Coronaviridae, Paramyxoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Caliciviridae, Coronaviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Caliciviridae, Paramyxoviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Coronaviridae, Paramyxoviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 4-tuples:
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Anelloviridae, Hepeviridae, Nairoviridae, Retroviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Hepeviridae, Nairoviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Hepeviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Anelloviridae, Nairoviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Hepeviridae, Nairoviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Caliciviridae, Coronaviridae, Paramyxoviridae, Picornaviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 5-tuples:
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Reoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Anelloviridae, Hepeviridae, Nairoviridae, Retroviridae, Tobaniviridae] is shared among Cluster algorithms: eigenvector_, leiden_mod_res1_, louvain_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Poxviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Herpesviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 6-tuples:
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Filoviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Adenoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+Combination: [Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 7-tuples:
+Combination: [Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae] is shared among Cluster algorithms: infomap10_, leiden_CPM_res0.01_, walktrap2_
+
+Shared 8-tuples:
+
+Shared 9-tuples:
+
+Shared 10-tuples:
+
+Shared 11-tuples:
+
+Shared 12-tuples:
+
+Shared 13-tuples:
+
+Shared 14-tuples:
+
+Shared 15-tuples:
+
+Shared 16-tuples:

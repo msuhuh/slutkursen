@@ -1,0 +1,2582 @@
+[
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0000421",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 38,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.93e-07,
+        "fdr": 0.0023,
+        "description": "Autophagosome membrane"
+    },
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0044754",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.14e-05,
+        "fdr": 0.0241,
+        "description": "Autolysosome"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0006995",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-08,
+        "fdr": 0.00054,
+        "description": "Cellular response to nitrogen starvation"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0097352",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 47,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.82e-06,
+        "fdr": 0.0095,
+        "description": "Autophagosome maturation"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0000422",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 57,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.17e-06,
+        "fdr": 0.0124,
+        "description": "Autophagy of mitochondrion"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0000045",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 72,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.23e-06,
+        "fdr": 0.0163,
+        "description": "Autophagosome assembly"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0048024",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 110,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P26599",
+            "P51114",
+            "P84103"
+        ],
+        "preferredNames": [
+            "PTBP1",
+            "FXR1",
+            "SRSF3"
+        ],
+        "p_value": 2.14e-05,
+        "fdr": 0.0373,
+        "description": "Regulation of mRNA splicing, via spliceosome"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0008380",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 370,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "O95400",
+            "P26599",
+            "P84103"
+        ],
+        "preferredNames": [
+            "RALY",
+            "CD2BP2",
+            "PTBP1",
+            "SRSF3"
+        ],
+        "p_value": 2.45e-05,
+        "fdr": 0.0384,
+        "description": "RNA splicing"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0000421",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 52,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.43e-06,
+        "fdr": 0.005,
+        "description": "Autophagosome membrane"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0099512",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 1000,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "P51114",
+            "Q9P202",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "FXR1",
+            "WHRN",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.94e-05,
+        "fdr": 0.0473,
+        "description": "Supramolecular fiber"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0508",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 274,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "O95400",
+            "P26599",
+            "P84103"
+        ],
+        "preferredNames": [
+            "RALY",
+            "CD2BP2",
+            "PTBP1",
+            "SRSF3"
+        ],
+        "p_value": 7.61e-06,
+        "fdr": 0.0051,
+        "description": "mRNA splicing"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0072",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 156,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.93e-05,
+        "fdr": 0.0133,
+        "description": "Autophagy"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0493",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 280,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 0.00033,
+        "fdr": 0.0444,
+        "description": "Microtubule"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0694",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 686,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P26599",
+            "P51114",
+            "P84103"
+        ],
+        "preferredNames": [
+            "RALY",
+            "PTBP1",
+            "FXR1",
+            "SRSF3"
+        ],
+        "p_value": 0.00026,
+        "fdr": 0.0444,
+        "description": "RNA-binding"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa04216",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.23e-06,
+        "fdr": 0.00041,
+        "description": "Ferroptosis"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00444",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O75420",
+            "O95400"
+        ],
+        "preferredNames": [
+            "GIGYF1",
+            "CD2BP2"
+        ],
+        "p_value": 2.32e-06,
+        "fdr": 0.0019,
+        "description": "Contains conserved Gly-Tyr-Phe residues"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR004241",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 8.09e-05,
+        "description": "Autophagy protein Atg8 ubiquitin-like"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR003169",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O75420",
+            "O95400"
+        ],
+        "preferredNames": [
+            "GIGYF1",
+            "CD2BP2"
+        ],
+        "p_value": 2.32e-06,
+        "fdr": 0.0083,
+        "description": "GYF domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR035445",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O75420",
+            "O95400"
+        ],
+        "preferredNames": [
+            "GIGYF1",
+            "CD2BP2"
+        ],
+        "p_value": 3.47e-06,
+        "fdr": 0.0083,
+        "description": "GYF-like domain superfamily"
+    },
+    {
+        "category": "Pfam",
+        "term": "PF04110",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 8.33e-06,
+        "fdr": 0.0192,
+        "description": "Ubiquitin-like autophagy protein Apg12 "
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35585060",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 102,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P26599",
+            "Q9BXW4",
+            "P84103",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "PTBP1",
+            "MAP1LC3C",
+            "SRSF3",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.06e-09,
+        "fdr": 0.0053,
+        "description": "(2022) Autophagy regulation by RNA alternative splicing and implications in human diseases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35633564",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.88e-09,
+        "fdr": 0.0053,
+        "description": "(2022) The Pathological Evaluation of Autophagy-Related Protein (LC3B) and Its Association with the Infiltration of Immune Cells in Glioma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38726830",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 0.0055,
+        "description": "(2024) Structural and functional characterization of the role of acetylation on the interactions of the human Atg8-family proteins with the autophagy receptor TP53INP2DOR."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38963025",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.89e-09,
+        "fdr": 0.0055,
+        "description": "(2024) Individual Atg8 paralogs exhibit unique properties in streptococcus pneumoniae-induced hierarchical autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35154538",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 0.0055,
+        "description": "(2022) Plumbagin triggers redox-mediated autophagy through the LC3B protein in human papillomavirus-positive cervical cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35618088",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.26e-09,
+        "fdr": 0.0055,
+        "description": "(2022) Autophagy protein LC3C binding to phospholipid and interaction with lipid membranes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32072342",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 0.0055,
+        "description": "(2020) Nr1d1 affects autophagy in the skeletal muscles of juvenile Nile tilapia by regulating the rhythmic expression of autophagy-related genes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29614870",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.29e-09,
+        "fdr": 0.0055,
+        "description": "(2019) Identification and screening of active components from Ziziphora clinopodioides Lam. in regulating autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29944143",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 0.0055,
+        "description": "(2018) High content screen for identifying small-molecule LC3B-localization modulators in a renal cancer cell line."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28028054",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 0.0055,
+        "description": "(2017) Fluorescence-based ATG8 sensors monitor localization and function of LC3GABARAP proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28339018",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 0.0055,
+        "description": "(2017) Role of autophagy in the progression of osteoarthritis: The autophagy inhibitor, 3-methyladenine, aggravates the severity of experimental osteoarthritis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27601442",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.89e-09,
+        "fdr": 0.0055,
+        "description": "(2016) LC3GABARAP family proteins: autophagy-(un)related functions."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25771791",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.26e-09,
+        "fdr": 0.0055,
+        "description": "(2015) Autophagy receptor NDP52 regulates pathogen-containing autophagosome maturation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25998689",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 0.0055,
+        "description": "(2015) Dual function of CALCOCO2NDP52 during xenophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24290141",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.26e-09,
+        "fdr": 0.0055,
+        "description": "(2014) Structural basis of the autophagy-related LC3Atg13 LIR complex: recognition and interaction mechanism."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24983366",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.26e-09,
+        "fdr": 0.0055,
+        "description": "(2014) Prognostic significance of p62SQSTM1 subcellular localization and LC3B in oral squamous cell carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22249245",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.29e-09,
+        "fdr": 0.0055,
+        "description": "(2012) A transcriptional variant of the LC3A gene is involved in autophagy and frequently inactivated in human cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36750337",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.06e-08,
+        "fdr": 0.0057,
+        "description": "(2023) [Role of IRE1 in autophagy induced by vitamin E succinate in human gastric cancer cell]."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28789437",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.06e-08,
+        "fdr": 0.0057,
+        "description": "(2017) Protoporphyrin IX-mediated sonodynamic therapy promotes autophagy in vascular smooth muscle cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36979862",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.68e-08,
+        "fdr": 0.0067,
+        "description": "(2023) Total Chemical Synthesis of LC3A and LC3B Activity-Based Probes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33164641",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.68e-08,
+        "fdr": 0.0067,
+        "description": "(2021) Measurement of autophagic flux in humans: an optimized method for blood samples."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32615967",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.68e-08,
+        "fdr": 0.0067,
+        "description": "(2020) Qiliqiangxin reduced cardiomyocytes apotosis and improved heart function in infarcted heart through Pink1Parkin -mediated mitochondrial autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32782519",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.68e-08,
+        "fdr": 0.0067,
+        "description": "(2020) Antiproliferative effects of L-asparaginase in acute myeloid leukemia."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26265176",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.68e-08,
+        "fdr": 0.0067,
+        "description": "(2015) LC3B globular structures correlate with survival in esophageal adenocarcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32157437",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-08,
+        "fdr": 0.0068,
+        "description": "(2020) Role of the autophagy-related marker LC3 expression in hepatocellular carcinoma: a meta-analysis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29859041",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-08,
+        "fdr": 0.0068,
+        "description": "(2018) Differences in LC3B expression and prognostic implications in oropharyngeal and oral cavity squamous cell carcinoma patients."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26984766",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-08,
+        "fdr": 0.0068,
+        "description": "(2016) Clinical significance of the expression of autophagy-associated marker, beclin 1, in breast cancer patients who received neoadjuvant endocrine therapy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24327773",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-08,
+        "fdr": 0.0068,
+        "description": "(2013) Identification of atg8 isoform in encysting Acanthamoeba."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38254294",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.27e-08,
+        "fdr": 0.0074,
+        "description": "(2024) Docosahexanoic Acid Attenuates Palmitate-Induced Apoptosis by Autophagy Upregulation via GPR120mTOR Axis in Insulin-Secreting Cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34530675",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.27e-08,
+        "fdr": 0.0074,
+        "description": "(2022) Autophagy inhibition by TSSC4 (tumor suppressing subtransferable candidate 4) contributes to sustainable cancer cell growth."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35563459",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.27e-08,
+        "fdr": 0.0074,
+        "description": "(2022) Focused Design of Novel Cyclic Peptides Endowed with GABARAP-Inhibiting Activity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27911875",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.27e-08,
+        "fdr": 0.0074,
+        "description": "(2016) Autophagy flux induced by ginsenoside-Rg3 attenuates human prion protein-mediated neurotoxicity and mitochondrial dysfunction."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26486079",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.27e-08,
+        "fdr": 0.0074,
+        "description": "(2015) CGK733-induced LC3 II formation is positively associated with the expression of cyclin-dependent kinase inhibitor p21Waf1Cip1 through modulation of the AMPK and PERKCHOP signaling pathways."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36729310",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2023) Effect of ATG12-ATG5-ATG16L1 autophagy E3-like complex on the ability of LC3GABARAP proteins to induce vesicle tethering and fusion."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34470575",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2022) LC3A-mediated autophagy regulates lung cancer cell plasticity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35308199",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.37e-08,
+        "fdr": 0.0077,
+        "description": "(2022) Immunotherapeutic Value of MAP1LC3C and Its Candidate FDA-Approved Drugs Identified by Pan-Cancer Analysis, Virtual Screening and Sensitivity Analysis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35649355",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.37e-08,
+        "fdr": 0.0077,
+        "description": "(2022) GMAP is an Atg8a-interacting protein that regulates Golgi turnover in Drosophila."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33050949",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2020) Autophagy occurs in lymphocytes infiltrating Sjoegrens syndrome minor salivary glands and correlates with histological severity of salivary gland lesions."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33070669",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2020) Mammalian Atg8-family proteins are upstream regulators of the lysosomalsystem by controlling MTOR and TFEB."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30586869",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.37e-08,
+        "fdr": 0.0077,
+        "description": "(2018) Cytotoxic Drugs Activate KSHV Lytic Cycle in Latently Infected PEL Cells by Inducing a Moderate ROS Increase Controlled by HSF1, NRF2 and p62SQSTM1."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27247826",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.37e-08,
+        "fdr": 0.0077,
+        "description": "(2016) A Sensitive IHC Method for Monitoring Autophagy-Specific Markers in Human Tumor Xenografts."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24900981",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2014) Correlation of altered expression of the autophagy marker LC3B with poor prognosis in astrocytoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23721406",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2013) Arginine68 is an essential residue for the C-terminal cleavage of human Atg8 family proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22407726",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2012) Microcephaly, intellectual impairment, bilateral vesicoureteral reflux, distichiasis, and glomuvenous malformations associated with a 16q24.3 contiguous gene deletion and a Glomulin mutation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23691463",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 5.25e-08,
+        "fdr": 0.0077,
+        "description": "(2012) Autophagy enhances the aggressiveness of human colorectal cancer cells and their ability to adapt to apoptotic stimulus."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36625582",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.64e-08,
+        "fdr": 0.0083,
+        "description": "(2023) Structure-Function Relationship for a Divergent Atg8 Protein Required for a Nonautophagic Function in Apicomplexan Parasites."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31640974",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.64e-08,
+        "fdr": 0.0083,
+        "description": "(2019) Autophagy-related Djatg8 is required for remodeling in planarian Dugesia japonica."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29684045",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.64e-08,
+        "fdr": 0.0083,
+        "description": "(2018) Autophagic flux blockage by accumulation of weakly basic tenovins leads to elimination of B-Raf mutant tumour cells that survive vemurafenib."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24618251",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.64e-08,
+        "fdr": 0.0083,
+        "description": "(2014) Autophagy facilitates Salmonella replication in HeLa cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20808946",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 7.64e-08,
+        "fdr": 0.0083,
+        "description": "(2010) Differential effects of concomitant use of vitamins C and E on trophoblast apoptosis and autophagy between normoxia and hypoxia-reoxygenation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36765070",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2023) Bi-allelic ATG4D variants are associated with a neurodevelopmental disorder characterized by speech and motor impairment."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34929165",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2022) An ALS-associated variant of the autophagy receptor SQSTM1p62 reprograms binding selectivity toward the autophagy-related hATG8 proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36333684",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2022) Construction of a novel cuproptosis-related gene signature for predicting prognosis and estimating tumor immune microenvironment status in papillary thyroid carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34452452",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2021) Interaction of Poliovirus Capsid Proteins with the Cellular Autophagy Pathway."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34829743",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2021) Combined Evaluation of MAP1LC3B and SQSTM1 for Biological and Clinical Significance in Ductal Carcinoma of Breast Cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31892846",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2020) Identification and characterization of chemical components in the bioactive fractions of Cynomorium coccineum that possess anticancer activity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32406996",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2020) Stapled Peptide Inhibitors of Autophagy Adapter LC3B."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33204717",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2020) Autophagy Regulatory Genes MET and RIPK2 Play a Prognostic Role in Pancreatic Ductal Adenocarcinoma: A Bioinformatic Analysis Based on GEO and TCGA."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33290258",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2020) Bnip3 interacts with vimentin, an intermediate filament protein, and regulates autophagy of hepatic stellate cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31191523",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2019) Simultaneous and Positively Correlated NET Formation and Autophagy in Besnoitia besnoiti Tachyzoite-Exposed Bovine Polymorphonuclear Neutrophils."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30258106",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2018) A short isoform of ATG7 fails to lipidate LC3GABARAP."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30282803",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2018) A helical LC3-interacting region mediates the interaction between the retroviral restriction factor Trim5alpha and mammalian autophagy-related ATG8 proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28442745",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2017) Phosphorylation of the mitochondrial autophagy receptor Nix enhances its interaction with LC3 proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27154582",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2016) Liver X receptor-beta improves autism symptoms via downregulation of beta-amyloid expression in cortical neurons."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25270002",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.07e-07,
+        "fdr": 0.0089,
+        "description": "(2015) Inhibition of autophagy increases apoptosis during re-warming after cold storage in renal tubular epithelial cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22815878",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 9.08e-08,
+        "fdr": 0.0089,
+        "description": "(2012) Increased autophagy in placentas of intrauterine growth-restricted pregnancies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33176581",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.0093,
+        "description": "(2020) LC3B in Malignant Cells Correlates With Immune Infiltrate in Hypopharyngeal Squamous Cell Carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30036188",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.0093,
+        "description": "(2018) Sodium fluoride induces splenocyte autophagy via the mammalian targets of rapamycin (mTOR) signaling pathway in growing mice."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28938618",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.0093,
+        "description": "(2017) Beclin 1 and LC3 as predictive biomarkers for metastatic colorectal carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28966949",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.0093,
+        "description": "(2017) Protocol for Establishing a Multiplex Image-based Autophagy RNAi Screen in Cell Cultures."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27980456",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.0093,
+        "description": "(2016) Autophagy induced by a sulphamoylated estrone analogue contributes to its cytotoxic effect on breast cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35531276",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 98,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P26599",
+            "P51114",
+            "P84103"
+        ],
+        "preferredNames": [
+            "RALY",
+            "PTBP1",
+            "FXR1",
+            "SRSF3"
+        ],
+        "p_value": 1.39e-07,
+        "fdr": 0.0096,
+        "description": "(2022) A Review and Meta-Analysis of Influenza Interactome Studies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37984441",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2024) The PB1 and the ZZ domain of the autophagy receptor p62SQSTM1 regulate the interaction of p62SQSTM1 with the autophagosome protein LC3B."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37395461",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2023) LGG-1GABARAP lipidation is not required for autophagy and development in Caenorhabditis elegans."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34163626",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2021) Directed evolution of cyclic peptides for inhibition of autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34590387",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2021) Inhibition of Autophagy by a Small Molecule through Covalent Modification of the LC3 Protein."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35096638",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2021) Early Growth Response 1 Suppresses Macrophage Phagocytosis by Inhibiting NRF2 Activation Through Upregulation of Autophagy During Pseudomonas aeruginosa Infection."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32021244",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2019) Water Extract of Sporoderm-Broken Spores of Ganoderma lucidum Induces Osteosarcoma Apoptosis and Restricts Autophagic Flux."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23607597",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.44e-07,
+        "fdr": 0.0099,
+        "description": "(2013) Autophagy fails to alter withaferin A-mediated lethality in human breast cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31315929",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.66e-07,
+        "fdr": 0.0104,
+        "description": "(2019) Human ATG4 autophagy proteases counteract attachment of ubiquitin-like LC3GABARAP proteins to other cellular proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30279379",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P26599",
+            "P84103",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "PTBP1",
+            "SRSF3",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.66e-07,
+        "fdr": 0.0104,
+        "description": "(2018) SRSF3, a Splicer of the PKM Gene, Regulates Cell Growth and Maintenance of Cancer-Specific Energy Metabolism in Colon Cancer Cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34124031",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.89e-07,
+        "fdr": 0.0116,
+        "description": "(2021) Sp1 Targeted PARP1 Inhibition Protects Cardiomyocytes From Myocardial Ischemia-Reperfusion Injury via Downregulation of Autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34568425",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.89e-07,
+        "fdr": 0.0116,
+        "description": "(2021) Autophagy Activation by Hypoxia Regulates Angiogenesis and Apoptosis in Oxidized Low-Density Lipoprotein-Induced Preeclampsia."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29380898",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.89e-07,
+        "fdr": 0.0116,
+        "description": "(2018) Cytoprotective effect of flavonoid-induced autophagy on bisphosphonate mediated cell death in osteoblast."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28993630",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.89e-07,
+        "fdr": 0.0116,
+        "description": "(2017) alpha-Synuclein impairs ferritinophagy in the retinal pigment epithelium: Implications for retinal iron dyshomeostasis in Parkinsons disease."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26136685",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.89e-07,
+        "fdr": 0.0116,
+        "description": "(2015) Different toxic effects of YTX in tumor K-562 and lymphoblastoid cell lines."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36753519",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.15e-07,
+        "fdr": 0.0124,
+        "description": "(2023) AlphaFold2-multimer guided high-accuracy prediction of typical and atypical ATG8-binding motifs."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37288820",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.15e-07,
+        "fdr": 0.0124,
+        "description": "(2023) Autophagosome membrane expansion is mediated by the N-terminus and cis-membrane association of human ATG8s."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32425885",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.15e-07,
+        "fdr": 0.0124,
+        "description": "(2020) Urinary Sediment Transcriptomic and Longitudinal Data to Investigate Renal Function Decline in Type 1 Diabetes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32699244",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.15e-07,
+        "fdr": 0.0124,
+        "description": "(2020) An improved method for high-throughput quantification of autophagy in mammalian cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36451006",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.43e-07,
+        "fdr": 0.0134,
+        "description": "(2023) Autophagic reprogramming of bone marrow-derived macrophages."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28213588",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.43e-07,
+        "fdr": 0.0134,
+        "description": "(2017) A differential autophagy-dependent response to DNA double-strand breaks in bone marrow mesenchymal stem cells from sporadic ALS patients."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32620754",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.73e-07,
+        "fdr": 0.0147,
+        "description": "(2020) Super-assembly of ER-phagy receptor Atg40 induces local ER remodeling at contacts with forming autophagosomal membranes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30349463",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.73e-07,
+        "fdr": 0.0147,
+        "description": "(2018) Microtubule-Associated Protein 1 Light Chain 3B, (LC3B) Is Necessary to Maintain Lipid-Mediated Homeostasis in the Retinal Pigment Epithelium."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23022382",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 2.73e-07,
+        "fdr": 0.0147,
+        "description": "(2012) LC3C, bound selectively by a noncanonical LIR motif in NDP52, is required for antibacterial autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36146840",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.06e-07,
+        "fdr": 0.016,
+        "description": "(2022) Coxsackievirus Protease 2A Targets Host Protease ATG4A to Impair Autophagy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31923184",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.06e-07,
+        "fdr": 0.016,
+        "description": "(2020) Autophagy gene haploinsufficiency drives chromosome instability, increases migration, and promotes early ovarian tumors."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30269643",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.06e-07,
+        "fdr": 0.016,
+        "description": "(2019) The role of host autophagy machinery in controlling Toxoplasma infection."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38234672",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 26,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-07,
+        "fdr": 0.0173,
+        "description": "(2024) Targeting GABARAPL1HIF-2a axis to induce tumor cell apoptosis in nasopharyngeal carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37766213",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 26,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.41e-07,
+        "fdr": 0.0173,
+        "description": "(2023) Nucleocapsid Protein (N) of Peste des petits ruminants Virus (PPRV) Interacts with Cellular Phosphatidylinositol-3-Kinase (PI3K) Complex-I and Induces Autophagy."
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8934903",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.8e-05,
+        "fdr": 0.0411,
+        "description": "Receptor Mediated Mitophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1632852",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 133,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.72e-05,
+        "fdr": 0.0425,
+        "description": "Macroautophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5205685",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.36e-05,
+        "fdr": 0.0425,
+        "description": "PINK1-PRKN Mediated Mitophagy"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4313",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 64,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 4.43e-06,
+        "fdr": 0.0035,
+        "description": "Ferroptosis"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP411",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 125,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95400",
+            "P26599",
+            "P84103"
+        ],
+        "preferredNames": [
+            "CD2BP2",
+            "PTBP1",
+            "SRSF3"
+        ],
+        "p_value": 3.11e-05,
+        "fdr": 0.0121,
+        "description": "mRNA processing"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP5224",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 135,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.89e-05,
+        "fdr": 0.0121,
+        "description": "2q37 copy number variation syndrome"
+    },
+    {
+        "category": "NetworkNeighborAL",
+        "term": "CL:14314",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 45,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.61e-06,
+        "fdr": 0.0074,
+        "description": "Autophagy - other, and Mitochondrion disassembly"
+    },
+    {
+        "category": "NetworkNeighborAL",
+        "term": "CL:2333",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 55,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P26599",
+            "P84103"
+        ],
+        "preferredNames": [
+            "RALY",
+            "PTBP1",
+            "SRSF3"
+        ],
+        "p_value": 2.86e-06,
+        "fdr": 0.0074,
+        "description": "mRNA processing, and CRD-mediated mRNA stability complex"
+    },
+    {
+        "category": "NetworkNeighborAL",
+        "term": "CL:14319",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.94e-05,
+        "fdr": 0.015,
+        "description": "Mixed, incl. Cellular response to nitrogen levels, and Atg12 transferase activity"
+    }
+]

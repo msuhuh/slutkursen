@@ -1,0 +1,3744 @@
+[
+    {
+        "category": "Process",
+        "term": "GO:0002862",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.27e-08,
+        "fdr": 9.95e-05,
+        "description": "Negative regulation of inflammatory response to antigenic stimulus"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0031295",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 42,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.45e-08,
+        "fdr": 9.95e-05,
+        "description": "T cell costimulation"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0036120",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 9.17e-09,
+        "fdr": 9.95e-05,
+        "description": "Cellular response to platelet-derived growth factor stimulus"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0038096",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 9.95e-05,
+        "description": "Fc-gamma receptor signaling pathway involved in phagocytosis"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0048013",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 51,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.77e-08,
+        "fdr": 0.00011,
+        "description": "Ephrin receptor signaling pathway"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0071560",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 151,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.86e-06,
+        "fdr": 0.0021,
+        "description": "Cellular response to transforming growth factor beta stimulus"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0050731",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 194,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.91e-06,
+        "fdr": 0.0031,
+        "description": "Positive regulation of peptidyl-tyrosine phosphorylation"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0002223",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 8.52e-06,
+        "fdr": 0.0051,
+        "description": "Stimulatory C-type lectin receptor signaling pathway"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0050900",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 249,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.19e-06,
+        "fdr": 0.0051,
+        "description": "Leukocyte migration"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0048010",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 33,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 1.84e-05,
+        "fdr": 0.008,
+        "description": "Vascular endothelial growth factor receptor signaling pathway"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0043114",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.77e-05,
+        "fdr": 0.0129,
+        "description": "Regulation of vascular permeability"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0003013",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 493,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.22e-05,
+        "fdr": 0.0188,
+        "description": "Circulatory system process"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0070301",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 66,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 7.01e-05,
+        "fdr": 0.0194,
+        "description": "Cellular response to hydrogen peroxide"
+    },
+    {
+        "category": "Process",
+        "term": "GO:1900182",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 91,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00013,
+        "fdr": 0.0349,
+        "description": "Positive regulation of protein localization to nucleus"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0003015",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 108,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00018,
+        "fdr": 0.0451,
+        "description": "Heart process"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0005884",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 99,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.37e-07,
+        "fdr": 0.0011,
+        "description": "Actin filament"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0031234",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 102,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.86e-07,
+        "fdr": 0.0011,
+        "description": "Extrinsic component of cytoplasmic side of plasma membrane"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0004715",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 45,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.42e-08,
+        "fdr": 0.00027,
+        "description": "Non-membrane spanning protein tyrosine kinase activity"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0044325",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 134,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.31e-06,
+        "fdr": 0.0032,
+        "description": "Transmembrane transporter binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0016004",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 3.71e-06,
+        "fdr": 0.0046,
+        "description": "Phospholipase activator activity"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0043274",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 9.26e-06,
+        "fdr": 0.0076,
+        "description": "Phospholipase binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0046875",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 31,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 1.63e-05,
+        "fdr": 0.0115,
+        "description": "Ephrin receptor binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0005524",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 1491,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.3e-05,
+        "fdr": 0.0204,
+        "description": "ATP binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0097110",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 66,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 7.01e-05,
+        "fdr": 0.0314,
+        "description": "Scaffold protein binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0019899",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 2084,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 0.00013,
+        "fdr": 0.0365,
+        "description": "Enzyme binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0051219",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 92,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 0.00013,
+        "fdr": 0.0368,
+        "description": "Phosphoprotein binding"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0016740",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 2268,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 0.00018,
+        "fdr": 0.04,
+        "description": "Transferase activity"
+    },
+    {
+        "category": "Function",
+        "term": "GO:0140096",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 2279,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 0.00018,
+        "fdr": 0.04,
+        "description": "Catalytic activity, acting on a protein"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0727",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 110,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.32e-07,
+        "fdr": 0.00049,
+        "description": "SH2 domain"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0829",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 110,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.32e-07,
+        "fdr": 0.00049,
+        "description": "Tyrosine-protein kinase"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0519",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 183,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.29e-06,
+        "fdr": 0.00074,
+        "description": "Myristate"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0656",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 225,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.07e-06,
+        "fdr": 0.00098,
+        "description": "Proto-oncogene"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0728",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 222,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.83e-06,
+        "fdr": 0.00098,
+        "description": "SH3 domain"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0067",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 1379,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.42e-05,
+        "fdr": 0.0027,
+        "description": "ATP-binding"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0808",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 1820,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q14527",
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "HLTF",
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.32e-05,
+        "fdr": 0.0064,
+        "description": "Transferase"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa04520",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 69,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.87e-07,
+        "fdr": 6.27e-05,
+        "description": "Adherens junction"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa04611",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 122,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00023,
+        "fdr": 0.0393,
+        "description": "Platelet activation"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00219",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 89,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.93e-07,
+        "fdr": 0.00032,
+        "description": "Tyrosine kinase, catalytic domain"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00252",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 112,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.72e-07,
+        "fdr": 0.00032,
+        "description": "Src homology 2 domains"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00326",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 214,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.23e-06,
+        "fdr": 0.0014,
+        "description": "Src homology 3 domains"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR000980",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 111,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.51e-07,
+        "fdr": 0.0021,
+        "description": "SH2 domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR001245",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 134,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.31e-06,
+        "fdr": 0.0021,
+        "description": "Serine-threonine/tyrosine-protein kinase, catalytic domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR008266",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 96,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.9e-07,
+        "fdr": 0.0021,
+        "description": "Tyrosine-protein kinase, active site"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR020635",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 80,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.87e-07,
+        "fdr": 0.0021,
+        "description": "Tyrosine-protein kinase, catalytic domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR036860",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 115,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.34e-07,
+        "fdr": 0.0021,
+        "description": "SH2 domain superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR001452",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 224,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.99e-06,
+        "fdr": 0.0063,
+        "description": "SH3 domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR036028",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 214,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.23e-06,
+        "fdr": 0.0063,
+        "description": "SH3-like domain superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR017441",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 382,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.92e-05,
+        "fdr": 0.0262,
+        "description": "Protein kinase, ATP binding site"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR000719",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 486,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.97e-05,
+        "fdr": 0.0476,
+        "description": "Protein kinase domain"
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39390250",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.28e-11,
+        "fdr": 0.00031,
+        "description": "(2024) The SRC-family serves as a therapeutic target in triple negative breast cancer with acquired resistance to chemotherapy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36796019",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.58e-09,
+        "fdr": 0.00031,
+        "description": "(2023) Preclinical characterization of pirtobrutinib, a highly selective, noncovalent (reversible) BTK inhibitor."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37117213",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.97e-10,
+        "fdr": 0.00031,
+        "description": "(2023) MasitinibL shows promise as a drug-like analog of masitinib that elicits comparable SARS-Cov-2 3CLpro inhibition with low kinase preference."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35793126",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2022) Docking of Syk to FcepsilonRI is enhanced by Lyn but limited in duration by SHIP1."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36058999",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(2022) Fyn and Lyn gene polymorphisms impact the risk of thyroid cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36178070",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2022) Activity of the nonreceptor tyrosine kinase Ack1 is regulated by tyrosine phosphorylation of its Mig6 homology region."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33556060",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.13e-09,
+        "fdr": 0.00031,
+        "description": "(2021) Antineoplastic kinase inhibitors: A new class of potent anti-amoebic compounds."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33765616",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2021) Structural insights into redox-active cysteine residues of the Src family kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34000351",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2021) Src family kinases involved in the differentiation of human preadipocytes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31799727",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2020) c-Src promotes tumor progression through downregulation of microRNA-129-1-3p."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32017701",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.43e-09,
+        "fdr": 0.00031,
+        "description": "(2020) A Fyn biosensor reveals pulsatile, spatially localized kinase activity and signaling crosstalk in live mammalian cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32051399",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2020) Targeting Src family kinase member Fyn by Saracatinib attenuated liver fibrosis in vitro and in vivo."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32370213",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2020) Phenylpyrazalopyrimidines as Tyrosine Kinase Inhibitors: Synthesis, Antiproliferative Activity, and Molecular Simulations."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32376886",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2020) Depletion of Csk preferentially reduces the protein level of LynA in a Cbl-dependent manner in cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32636308",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2020) A redox-active switch in fructosamine-3-kinases expands the regulatory repertoire of the protein kinase superfamily."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31434231",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-09,
+        "fdr": 0.00031,
+        "description": "(2019) Rapid Characterization of Chemical Components in Edible Mushroom Sparassis crispa by UPLC-Orbitrap MS Analysis and Potential Inhibitory Effects on Allergic Rhinitis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31783534",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2019) Colorectal Cancer Growth Retardation through Induction of Apoptosis, Using an Optimized Synergistic Cocktail of Axitinib, Erlotinib, and Dasatinib."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29174914",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2018) Src family kinases (SFKs) and cell polarity in the testis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29636436",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2018) Broad-Spectrum Regulation of Nonreceptor Tyrosine Kinases by the Bacterial ADP-Ribosyltransferase EspJ."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29875142",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 0.00031,
+        "description": "(2018) YES1 amplification is a mechanism of acquired resistance to EGFR inhibitors identified by transposon mutagenesis and clinical genomics."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29921831",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.17e-09,
+        "fdr": 0.00031,
+        "description": "(2018) Role of Membrane Cholesterol Levels in Activation of Lyn upon Cell Detachment."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30072490",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2018) Reconstructing phosphorylation signalling networks from quantitative phosphoproteomic data."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30227617",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2018) Optimization of Aminoimidazole Derivatives as Src Family Kinase Inhibitors."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30404626",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2018) SRC inhibition prevents P-cadherin mediated signaling and function in basal-like breast cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30544914",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.14e-09,
+        "fdr": 0.00031,
+        "description": "(2018) Combining a QSAR Approach and Structural Analysis to Derive an SAR Map of Lyn Kinase Inhibition."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28347651",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2017) Selective Targeting of SH2 Domain-Phosphotyrosine Interactions of Src Family Tyrosine Kinases with Monobodies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28459445",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.13e-09,
+        "fdr": 0.00031,
+        "description": "(2017) EGFR and HER2 activate rigidity sensing only on rigid matrices."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28646493",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.58e-09,
+        "fdr": 0.00031,
+        "description": "(2017) Src family kinase phosphorylation of the motor domain of the human kinesin-5, Eg5."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28740133",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 0.00031,
+        "description": "(2017) Spatial cycles mediated by UNC119 solubilisation maintain Src family kinases plasma membrane localisation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28931921",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.9e-10,
+        "fdr": 0.00031,
+        "description": "(2017) An iterative compound screening contest method for identifying target protein inhibitors using the tyrosine-protein kinase Yes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29050270",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2017) KIT performed as a driver gene candidate affecting the survival status of patients with stomach adenocarcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26365631",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.28e-11,
+        "fdr": 0.00031,
+        "description": "(2016) Fyn Accelerates M Phase Progression by Promoting the Assembly of Mitotic Spindle Microtubules."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26628556",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 0.00031,
+        "description": "(2016) Regulation of blood-testis barrier by actin binding proteins and protein kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26667783",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2016) Common errors in mass spectrometry-based analysis of post-translational modifications."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26751575",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2016) Gene Silencing and Haploinsufficiency of Csk Increase Blood Pressure."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26979622",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2016) A phosphotyrosine switch regulates organic cation transporters."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27055828",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.97e-10,
+        "fdr": 0.00031,
+        "description": "(2016) The drug-minded protein interaction database (DrumPID) for efficient target analysis and drug development."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25868388",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2015) Yes-mediated phosphorylation of focal adhesion kinase at tyrosine 861 increases metastatic potential of prostate cancer cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24763074",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.64e-10,
+        "fdr": 0.00031,
+        "description": "(2014) The inhibition of SRC family kinase suppresses pancreatic cancer cell proliferation, migration, and invasion."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24901433",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2014) Src kinases regulate de novo actin polymerization during exocytosis in neuroendocrine chromaffin cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25144189",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.97e-10,
+        "fdr": 0.00031,
+        "description": "(2014) Differential sensitivity of Src-family kinases to activation by SH3 domain displacement."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23266470",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2013) Individual Src-family tyrosine kinases direct the degradation or protection of the clock protein Timeless via differential ubiquitylation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23535298",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2013) UNC119a bridges the transmission of Fyn signals to Rab11, leading to the completion of cytokinesis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23787099",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-09,
+        "fdr": 0.00031,
+        "description": "(2013) Identification of potent Yes1 kinase inhibitors using a library screening approach."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22393415",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2012) Nef alleles from all major HIV-1 clades activate Src-family kinases and enhance HIV-1 replication in an inhibitor-sensitive manner."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22468754",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-09,
+        "fdr": 0.00031,
+        "description": "(2012) Characterization of domain-peptide interaction interface: prediction of SH3 domain-mediated protein-protein interaction network in yeast by generic structure-based models."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22594480",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2012) Development of a highly selective c-Src kinase inhibitor."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22641100",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.58e-09,
+        "fdr": 0.00031,
+        "description": "(2012) CCL2 disrupts the adherens junction: implications for neuroinflammation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22689581",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(2012) c-Src but not Fyn promotes proper spindle orientation in early prometaphase."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22904271",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2012) A disintegrin and metalloproteinase 15 contributes to atherosclerosis by mediating endothelial barrier dysfunction via Src family kinase activity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20798388",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2011) Developmental expression of SRC-related tyrosine kinases in the mouse testis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21320292",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 0.00031,
+        "description": "(2011) In vitro studies of dasatinib, its targets and predictors of sensitivity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21359199",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2011) An unexpected role for the clock protein timeless in developmental apoptosis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21390316",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.17e-09,
+        "fdr": 0.00031,
+        "description": "(2011) Specific oncogenic activity of the Src-family tyrosine kinase c-Yes in colon carcinoma cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21513984",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2011) Fyn binds to and phosphorylates T cell immunoglobulin and mucin domain-1 (Tim-1)."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21523734",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.17e-09,
+        "fdr": 0.00031,
+        "description": "(2011) A phase 2 trial of dasatinib in advanced melanoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:19796918",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2010) Association of the C8orf13-BLK region with systemic sclerosis in North-American and European populations."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20017732",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2010) The multiple roles of myelin protein genes during the development of the oligodendrocyte."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20591331",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2010) Role of Fyn kinase in oocyte developmental potential."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20652027",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 0.00031,
+        "description": "(2010) Bacillus anthracis spore entry into epithelial cells is an actin-dependent process requiring c-Src and PI3K."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20796316",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.43e-09,
+        "fdr": 0.00031,
+        "description": "(2010) Elevated c-Src and c-Yes expression in malignant skin cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21779430",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2010) Identification of the YES1 Kinase as a Therapeutic Target in Basal-Like Breast Cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18623061",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 0.00031,
+        "description": "(2009) Flexibility and charge asymmetry in the activation loop of Src tyrosine kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:19223540",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2009) Neuronal guidance protein Netrin-1 induces differentiation in human embryonal carcinoma cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:19318475",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.58e-09,
+        "fdr": 0.00031,
+        "description": "(2009) Phosphorylation of the SRC epithelial substrate Trask is tightly regulated in normal epithelia but widespread in many human epithelial cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18067320",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-09,
+        "fdr": 0.00031,
+        "description": "(2008) Binding of the proline-rich segment of myelin basic protein to SH3 domains: spectroscopic, microarray, and modeling studies of ligand conformation and effects of posttranslational modifications."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18171604",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(2008) v-Src and c-Src, nonpalmitoylated Src-family kinases, induce perinuclear accumulation of lysosomes through Rab7 in a kinase activity-independent manner."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18482983",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2008) Potential molecular mechanism for c-Src kinase-mediated regulation of intestinal cell migration."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18563293",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-09,
+        "fdr": 0.00031,
+        "description": "(2008) Structure and dynamic regulation of Src-family kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18710921",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2008) Mechanotransduction in an extracted cell model: Fyn drives stretch- and flow-elicited PECAM-1 phosphorylation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:18714047",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 18,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.17e-09,
+        "fdr": 0.00031,
+        "description": "(2008) The Src kinase Lck facilitates assembly of HIV-1 at the plasma membrane."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:17949706",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(2007) The role of Src family kinases in egg activation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:16115959",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.83e-09,
+        "fdr": 0.00031,
+        "description": "(2005) PTP-1B is an essential positive regulator of platelet integrin signaling."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:16227616",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2005) Integrin alpha4beta1 promotes focal adhesion kinase-independent cell motility via alpha4 cytoplasmic domain-specific activation of c-Src."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:15047936",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.28e-11,
+        "fdr": 0.00031,
+        "description": "(2004) Are Src family kinases involved in cell cycle resumption in rat eggs?"
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:15173188",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.97e-10,
+        "fdr": 0.00031,
+        "description": "(2004) Trafficking of Lyn through the Golgi caveolin involves the charged residues on alphaE and alphaI helices in the kinase domain."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:12682088",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 0.00031,
+        "description": "(2003) RPTP-alpha acts as a transducer of mechanical force on alphavbeta3-integrin-cytoskeleton linkages."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:12771142",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.9e-10,
+        "fdr": 0.00031,
+        "description": "(2003) Src kinases mediate STAT growth pathways in squamous cell carcinoma of the head and neck."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:12826049",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2003) pp60c-src activation in lung adenocarcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:14581461",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 0.00031,
+        "description": "(2003) Talin1 is critical for force-dependent reinforcement of initial integrin-cytoskeleton bonds but not tyrosine kinase activation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:11493667",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.97e-10,
+        "fdr": 0.00031,
+        "description": "(2001) pp60(c-src) and related tyrosine kinases: a role in the assembly and reorganization of matrix adhesions."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:11546805",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2001) beta -Arrestin-mediated recruitment of the Src family kinase Yes mediates endothelin-1-stimulated glucose transport."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:10637290",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(2000) The catalytic activity of the Src family kinases is required to disrupt cadherin-dependent cell-cell contacts."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:10688905",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(2000) 5-hydroxytryptamine 2B receptor regulates cell-cycle progression: cross-talk with tyrosine kinase pathways."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:11038144",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.9e-10,
+        "fdr": 0.00031,
+        "description": "(2000) An anti-Ras cancer potential of PP1, an inhibitor specific for Src family kinases: in vitro and in vivo studies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:10356364",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(1999) Expression of a Y559F mutant CSF-1 receptor in M1 myeloid cells: a role for Src kinases in CSF-1 receptor-mediated differentiation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:9857056",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-10,
+        "fdr": 0.00031,
+        "description": "(1998) c-Src activation plays a role in endothelin-dependent hypertrophy of the cardiac myocyte."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8985339",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.28e-11,
+        "fdr": 0.00031,
+        "description": "(1997) Functional interaction between the SH2 domain of Fyn and tyrosine 324 of hamster polyomavirus middle-T antigen."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8995669",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.28e-11,
+        "fdr": 0.00031,
+        "description": "(1997) The N terminus of hamster polyomavirus middle T antigen carries a determinant for specific activation of p59c-Fyn."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8626602",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.18e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Angiotensin II controls p21ras activity via pp60c-src."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8627648",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Polyomavirus middle-T antigen associates with the kinase domain of Src-related tyrosine kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8662722",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.76e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Purification and characterization of a Src-related p57 protein-tyrosine kinase from Xenopus oocytes. Isolation of an inactive form of the enzyme and its activation and translocation upon fertilization."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8663329",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Requirement for c-Src catalytic activity and the SH3 domain in platelet-derived growth factor BB and epidermal growth factor mitogenic signaling."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8760296",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(1996) The apical membranes of maturing gut columnar epithelial cells contain the enzymatically active form of a newly identified fyn-related tyrosine kinase."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8776663",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.64e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Activation of Fyn tyrosine kinase upon secretagogue stimulation of bovine chromaffin cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:8945620",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-10,
+        "fdr": 0.00031,
+        "description": "(1996) Expression and tyrosine phosphorylation of EMS1 in human breast cancer cell lines."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:7478608",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.64e-10,
+        "fdr": 0.00031,
+        "description": "(1995) Activation of Src family kinases in Neu-induced mammary tumors correlates with their association with distinct sets of tyrosine phosphorylated proteins in vivo."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:7545532",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.9e-10,
+        "fdr": 0.00031,
+        "description": "(1995) Signalling by the p60c-src family of protein-tyrosine kinases."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:7507074",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.1e-10,
+        "fdr": 0.00031,
+        "description": "(1994) Activation of the c-Src tyrosine kinase is required for the induction of mammary tumors in transgenic mice."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:7680388",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.76e-10,
+        "fdr": 0.00031,
+        "description": "(1993) Mutation of a cysteine residue in polyomavirus middle T antigen abolishes interactions with protein phosphatase 2A, pp60c-src, and phosphatidylinositol-3 kinase, activation of c-fos expression, and cellular transformation."
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1433559",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 3.04e-09,
+        "fdr": 3.26e-06,
+        "description": "Regulation of KIT signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2029481",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.56e-09,
+        "fdr": 3.26e-06,
+        "description": "FCGR activation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-210990",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.43e-09,
+        "fdr": 3.26e-06,
+        "description": "PECAM1 interactions"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-389513",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.35e-09,
+        "fdr": 3.26e-06,
+        "description": "CTLA4 inhibitory signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9670439",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.55e-09,
+        "fdr": 3.26e-06,
+        "description": "Signaling by phosphorylated juxtamembrane, extracellular and kinase domain KIT mutants"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928663",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 5.07e-06,
+        "description": "EPHA-mediated growth cone collapse"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9680350",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 31,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.88e-08,
+        "fdr": 5.35e-06,
+        "description": "Signaling by CSF1 (M-CSF) in myeloid cells"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-389356",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 33,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.24e-08,
+        "fdr": 5.68e-06,
+        "description": "CD28 co-stimulation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928662",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 42,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.45e-08,
+        "fdr": 9.47e-06,
+        "description": "EPHB-mediated forward signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9664323",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 4.15e-08,
+        "fdr": 9.47e-06,
+        "description": "FCGR3A-mediated IL10 synthesis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1227986",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.34e-08,
+        "fdr": 1.29e-05,
+        "description": "Signaling by ERBB2"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928665",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 51,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.77e-08,
+        "fdr": 1.29e-05,
+        "description": "EPH-ephrin mediated repulsion of cells"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9664422",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 62,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1.37e-07,
+        "fdr": 2.08e-05,
+        "description": "FCGR3A-mediated phagocytosis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9032500",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 1.11e-06,
+        "fdr": 0.00011,
+        "description": "Activated NTRK2 signals through FYN"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-418885",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 3.71e-06,
+        "fdr": 0.00033,
+        "description": "DCC mediated attractive signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928664",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 6.48e-06,
+        "fdr": 0.00055,
+        "description": "Ephrin signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-912631",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 8.52e-06,
+        "fdr": 0.00069,
+        "description": "Regulation of signaling by CBL"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8940973",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 1e-05,
+        "fdr": 0.00079,
+        "description": "RUNX2 regulates osteoblast differentiation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-375165",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 63,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 6.4e-05,
+        "fdr": 0.0042,
+        "description": "NCAM signaling for neurite out-growth"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2219530",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 78,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 9.72e-05,
+        "fdr": 0.0058,
+        "description": "Constitutive Signaling by Aberrant PI3K in Cancer"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-4420097",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 96,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00015,
+        "fdr": 0.0081,
+        "description": "VEGFA-VEGFR2 Pathway"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-6811558",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 106,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00018,
+        "fdr": 0.0095,
+        "description": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1500931",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 129,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00026,
+        "fdr": 0.0122,
+        "description": "Cell-Cell communication"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5621481",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 138,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.0003,
+        "fdr": 0.0133,
+        "description": "C-type lectin receptors (CLRs)"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-76002",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 260,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.001,
+        "fdr": 0.0431,
+        "description": "Platelet activation, signaling and aggregation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5673001",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 277,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.0012,
+        "fdr": 0.0471,
+        "description": "RAF/MAP kinase cascade"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4357",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 8.15e-09,
+        "fdr": 6.37e-06,
+        "description": "NRF2-ARE regulation"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP2203",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 47,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 6.14e-08,
+        "fdr": 1.98e-05,
+        "description": "Thymic stromal lymphopoietin (TSLP) signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP2332",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 44,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 5.08e-08,
+        "fdr": 1.98e-05,
+        "description": "Interleukin-11 signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4659",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 113,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 7.92e-07,
+        "fdr": 0.00015,
+        "description": "Gastrin signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP286",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 49,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 3.93e-05,
+        "fdr": 0.0061,
+        "description": "IL-3 signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4747",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 52,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 4.41e-05,
+        "fdr": 0.0061,
+        "description": "Netrin-UNC5B signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP304",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 59,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 5.63e-05,
+        "fdr": 0.0063,
+        "description": "Kit receptor signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP2034",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 76,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 9.24e-05,
+        "fdr": 0.009,
+        "description": "Leptin signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP2037",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 76,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 9.24e-05,
+        "fdr": 0.009,
+        "description": "Prolactin signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4298",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 85,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00011,
+        "fdr": 0.009,
+        "description": "Acute viral myocarditis"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP185",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 99,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00016,
+        "fdr": 0.011,
+        "description": "Integrin-mediated cell adhesion"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP4549",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 121,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00023,
+        "fdr": 0.015,
+        "description": "Fragile X syndrome"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP2380",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 143,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00032,
+        "fdr": 0.0192,
+        "description": "Brain-derived neurotrophic factor (BDNF) signaling pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP306",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 195,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC"
+        ],
+        "p_value": 0.00059,
+        "fdr": 0.0329,
+        "description": "Focal adhesion"
+    },
+    {
+        "category": "NetworkNeighborAL",
+        "term": "CL:17325",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 171,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P12931",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SRC",
+            "YES1"
+        ],
+        "p_value": 2.69e-06,
+        "fdr": 0.0123,
+        "description": "Mixed, incl. Constitutive Signaling by Aberrant PI3K in Cancer, and SH2 domain superfamily"
+    }
+]

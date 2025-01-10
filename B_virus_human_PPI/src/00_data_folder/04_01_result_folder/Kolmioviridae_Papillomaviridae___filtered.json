@@ -1,0 +1,58 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-8934903",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 1.8e-05,
+        "fdr": 0.0411,
+        "description": "Receptor Mediated Mitophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1632852",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 133,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9BXW4",
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3C",
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 3.72e-05,
+        "fdr": 0.0425,
+        "description": "Macroautophagy"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5205685",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H492",
+            "Q9GZQ8"
+        ],
+        "preferredNames": [
+            "MAP1LC3A",
+            "MAP1LC3B"
+        ],
+        "p_value": 6.36e-05,
+        "fdr": 0.0425,
+        "description": "PINK1-PRKN Mediated Mitophagy"
+    }
+]

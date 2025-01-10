@@ -1,0 +1,28 @@
+
+Shared 2-tuples:
+[Anelloviridae, Nairoviridae]; [eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_]
+[Hepeviridae, Retroviridae]; [eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_]
+[Caliciviridae, Picornaviridae]; [eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_]
+[Coronaviridae, Paramyxoviridae]; [eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_, walktrap2_]
+[Orthomyxoviridae, Paramyxoviridae]; [eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_]
+[Kolmioviridae, Papillomaviridae]; [eigenvector_, fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_]
+[Caliciviridae, Paramyxoviridae]; [eigenvector_, fastgreedy_, infomap10_, walktrap2_]
+[Arenaviridae, Pneumoviridae]; [fastgreedy_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_]
+[Astroviridae, Togaviridae]; [eigenvector_, fastgreedy_, louvain_]
+[Astroviridae, Papillomaviridae]; [fastgreedy_, infomap10_, louvain_]
+
+Shared 3-tuples:
+[Coronaviridae, Orthomyxoviridae, Paramyxoviridae]; [eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_]
+
+Shared 4-tuples:
+[Anelloviridae, Hepeviridae, Nairoviridae, Retroviridae]; [eigenvector_, fastgreedy_, leiden_mod_res1_, louvain_]
+[Caliciviridae, Coronaviridae, Paramyxoviridae, Picornaviridae]; [eigenvector_, fastgreedy_, walktrap2_]
+
+Shared 5-tuples:
+[Anelloviridae, Hepeviridae, Nairoviridae, Retroviridae, Tobaniviridae]; [eigenvector_, leiden_mod_res1_, louvain_]
+
+Shared 6-tuples:
+[Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Reoviridae, Rhabdoviridae]; [eigenvector_, fastgreedy_, infomap10_, leiden_CPM_res0.01_, leiden_mod_res1_, louvain_, walktrap2_]
+
+Shared 7-tuples:
+[Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae, Poxviridae, Reoviridae, Rhabdoviridae]; [infomap10_, leiden_CPM_res0.01_, walktrap2_]

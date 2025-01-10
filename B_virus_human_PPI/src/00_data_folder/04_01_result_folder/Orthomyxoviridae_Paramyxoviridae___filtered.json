@@ -1,0 +1,156 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-1266738",
+        "number_of_genes": 7,
+        "number_of_genes_in_background": 1108,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P07900",
+            "P15311",
+            "P61964",
+            "P26038",
+            "Q15811",
+            "P02549",
+            "P35241"
+        ],
+        "preferredNames": [
+            "HSP90AA1",
+            "EZR",
+            "WDR5",
+            "MSN",
+            "ITSN1",
+            "SPTA1",
+            "RDX"
+        ],
+        "p_value": 1.32e-05,
+        "fdr": 0.0058,
+        "description": "Developmental Biology"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-373760",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 120,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P02549",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "SPTA1",
+            "RDX"
+        ],
+        "p_value": 2.56e-06,
+        "fdr": 0.0058,
+        "description": "L1CAM interactions"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-422475",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 551,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P07900",
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P02549",
+            "P35241"
+        ],
+        "preferredNames": [
+            "HSP90AA1",
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "SPTA1",
+            "RDX"
+        ],
+        "p_value": 3.11e-06,
+        "fdr": 0.0058,
+        "description": "Axon guidance"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-437239",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.92e-06,
+        "fdr": 0.0058,
+        "description": "Recycling pathway of L1"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662361",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-05,
+        "fdr": 0.0058,
+        "description": "Sensory processing of sound by outer hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662360",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 68,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.42e-05,
+        "fdr": 0.0079,
+        "description": "Sensory processing of sound by inner hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9013418",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q8IYB3",
+            "P07900"
+        ],
+        "preferredNames": [
+            "SRRM1",
+            "HSP90AA1"
+        ],
+        "p_value": 0.00018,
+        "fdr": 0.0465,
+        "description": "RHOBTB2 GTPase cycle"
+    }
+]

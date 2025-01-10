@@ -1,0 +1,3220 @@
+[
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0005902",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 51,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.16e-06,
+        "fdr": 0.0073,
+        "description": "Microvillus"
+    },
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0030175",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 61,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.29e-06,
+        "fdr": 0.0073,
+        "description": "Filopodium"
+    },
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0001931",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN"
+        ],
+        "p_value": 2.57e-05,
+        "fdr": 0.0197,
+        "description": "Uropod"
+    },
+    {
+        "category": "COMPARTMENTS",
+        "term": "GOCC:0016324",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 167,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 9.89e-05,
+        "fdr": 0.0379,
+        "description": "Apical plasma membrane"
+    },
+    {
+        "category": "Process",
+        "term": "GO:1903649",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 28,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "Q93009",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "USP7",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.87e-09,
+        "fdr": 2.94e-05,
+        "description": "Regulation of cytoplasmic transport"
+    },
+    {
+        "category": "Process",
+        "term": "GO:1902966",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00017,
+        "description": "Positive regulation of protein localization to early endosome"
+    },
+    {
+        "category": "Process",
+        "term": "GO:2000643",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00017,
+        "description": "Positive regulation of early endosome to late endosome transport"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0033043",
+        "number_of_genes": 7,
+        "number_of_genes_in_background": 1190,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "Q93009",
+            "P26038",
+            "Q96ST3",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "USP7",
+            "MSN",
+            "SIN3A",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 7.96e-07,
+        "fdr": 0.0014,
+        "description": "Regulation of organelle organization"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0061028",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 33,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 9.14e-07,
+        "fdr": 0.0014,
+        "description": "Establishment of endothelial barrier"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0008360",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 155,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.29e-06,
+        "fdr": 0.0018,
+        "description": "Regulation of cell shape"
+    },
+    {
+        "category": "Process",
+        "term": "GO:1902115",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 210,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 4.2e-06,
+        "fdr": 0.0051,
+        "description": "Regulation of organelle assembly"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0022614",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN"
+        ],
+        "p_value": 5.94e-06,
+        "fdr": 0.0067,
+        "description": "Membrane to membrane docking"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0008104",
+        "number_of_genes": 7,
+        "number_of_genes_in_background": 1943,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "O75381",
+            "Q15811",
+            "Q96ST3",
+            "Q15717",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "PEX14",
+            "ITSN1",
+            "SIN3A",
+            "ELAVL1",
+            "RDX"
+        ],
+        "p_value": 2.12e-05,
+        "fdr": 0.0193,
+        "description": "Protein localization"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0071803",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P26038",
+            "Q9ULH1"
+        ],
+        "preferredNames": [
+            "MSN",
+            "ASAP1"
+        ],
+        "p_value": 2.2e-05,
+        "fdr": 0.0193,
+        "description": "Positive regulation of podosome assembly"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0032535",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 370,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q96ST3",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "SIN3A",
+            "RDX"
+        ],
+        "p_value": 3.79e-05,
+        "fdr": 0.025,
+        "description": "Regulation of cellular component size"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0042176",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 367,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "Q93009",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "USP7",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.67e-05,
+        "fdr": 0.025,
+        "description": "Regulation of protein catabolic process"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0010737",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "RDX"
+        ],
+        "p_value": 4.82e-05,
+        "fdr": 0.0302,
+        "description": "Protein kinase A signaling"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0001931",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN"
+        ],
+        "p_value": 2.96e-05,
+        "fdr": 0.0345,
+        "description": "Uropod"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0005902",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 91,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.69e-05,
+        "fdr": 0.0345,
+        "description": "Microvillus"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0030175",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 107,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.7e-05,
+        "fdr": 0.0345,
+        "description": "Filopodium"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0005912",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 177,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 0.00012,
+        "fdr": 0.043,
+        "description": "Adherens junction"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0015629",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 482,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 0.0001,
+        "fdr": 0.043,
+        "description": "Actin cytoskeleton"
+    },
+    {
+        "category": "Component",
+        "term": "GO:0031528",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 28,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN"
+        ],
+        "p_value": 0.00012,
+        "fdr": 0.043,
+        "description": "Microvillus membrane"
+    },
+    {
+        "category": "TISSUES",
+        "term": "BTO:0001491",
+        "number_of_genes": 10,
+        "number_of_genes_in_background": 5378,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P46108",
+            "P15311",
+            "Q93009",
+            "P26038",
+            "Q15811",
+            "Q96ST3",
+            "Q15717",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "RALY",
+            "CRK",
+            "EZR",
+            "USP7",
+            "MSN",
+            "ITSN1",
+            "SIN3A",
+            "ELAVL1",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 1.92e-05,
+        "fdr": 0.0465,
+        "description": "Viscus"
+    },
+    {
+        "category": "DISEASES",
+        "term": "DOID:0111252",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.83e-06,
+        "fdr": 0.013,
+        "description": "Neurofibromatosis 2"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0007",
+        "number_of_genes": 8,
+        "number_of_genes_in_background": 3362,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P46108",
+            "P15311",
+            "Q93009",
+            "O75381",
+            "P26038",
+            "Q96ST3",
+            "Q15717"
+        ],
+        "preferredNames": [
+            "RALY",
+            "CRK",
+            "EZR",
+            "USP7",
+            "PEX14",
+            "MSN",
+            "SIN3A",
+            "ELAVL1"
+        ],
+        "p_value": 7.32e-05,
+        "fdr": 0.0395,
+        "description": "Acetylation"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0597",
+        "number_of_genes": 11,
+        "number_of_genes_in_background": 8122,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9UKM9",
+            "P46108",
+            "P15311",
+            "Q93009",
+            "O75381",
+            "P26038",
+            "Q15811",
+            "Q96ST3",
+            "Q15717",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "RALY",
+            "CRK",
+            "EZR",
+            "USP7",
+            "PEX14",
+            "MSN",
+            "ITSN1",
+            "SIN3A",
+            "ELAVL1",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 5.88e-05,
+        "fdr": 0.0395,
+        "description": "Phosphoprotein"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa04810",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 209,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.12e-06,
+        "fdr": 0.0014,
+        "description": "Regulation of actin cytoskeleton"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa04530",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 157,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.26e-05,
+        "fdr": 0.0139,
+        "description": "Tight junction"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa05205",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 194,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 0.00015,
+        "fdr": 0.0139,
+        "description": "Proteoglycans in cancer"
+    },
+    {
+        "category": "KEGG",
+        "term": "hsa05206",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 159,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "RDX"
+        ],
+        "p_value": 8.57e-05,
+        "fdr": 0.0139,
+        "description": "MicroRNAs in cancer"
+    },
+    {
+        "category": "SMART",
+        "term": "SM01196",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.21e-07,
+        "fdr": 0.00043,
+        "description": "FERM C-terminal PH-like domain"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00295",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 49,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.82e-06,
+        "fdr": 0.0012,
+        "description": "Band 4.1 homologues"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR008954",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 3.25e-05,
+        "description": "Moesin tail domain superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR011174",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 3.25e-05,
+        "description": "Ezrin/radixin/moesin"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR011259",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 3.25e-05,
+        "description": "Ezrin/radixin/moesin, C-terminal"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR041789",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 3.25e-05,
+        "description": "ERM family, FERM domain C-lobe"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR046810",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 3.25e-05,
+        "description": "Ezrin/radixin/moesin, alpha-helical domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR000798",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00015,
+        "description": "Ezrin/radixin/moesin-like"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR019747",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.75e-07,
+        "fdr": 0.00039,
+        "description": "FERM conserved site"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR018979",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.21e-07,
+        "fdr": 0.00047,
+        "description": "FERM, N-terminal"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR018980",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.21e-07,
+        "fdr": 0.00047,
+        "description": "FERM, C-terminal PH-like domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR011993",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 435,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 2.24e-06,
+        "fdr": 0.0016,
+        "description": "PH-like domain superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR000299",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.65e-06,
+        "fdr": 0.0017,
+        "description": "FERM domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR014352",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.98e-06,
+        "fdr": 0.0017,
+        "description": "FERM/acyl-CoA-binding protein superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR019748",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 49,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.82e-06,
+        "fdr": 0.0017,
+        "description": "FERM central domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR019749",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 51,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.16e-06,
+        "fdr": 0.0017,
+        "description": "Band 4.1 domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR035963",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.98e-06,
+        "fdr": 0.0017,
+        "description": "FERM superfamily, second domain"
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21118706",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 31,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 6.97e-12,
+        "fdr": 3.49e-05,
+        "description": "(2011) Focal adhesion kinase and its signaling pathways in cell migration and angiogenesis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27092250",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 37,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 1.57e-11,
+        "fdr": 3.93e-05,
+        "description": "(2016) The emerging role of phosphoinositide clustering in intracellular trafficking and signal transduction."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:15326184",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.73e-11,
+        "fdr": 3.93e-05,
+        "description": "(2004) Crk associates with ERM proteins and promotes cell motility toward hyaluronic acid."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:19643531",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 45,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 3.91e-11,
+        "fdr": 4.89e-05,
+        "description": "(2010) Focal adhesion kinase: a prominent determinant in breast cancer initiation, progression and metastasis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35574330",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 9.52e-11,
+        "fdr": 9.54e-05,
+        "description": "(2022) FAK PROTAC Inhibits Ovarian Tumor Growth and Metastasis by Disrupting Kinase Dependent and Independent Pathways."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24818904",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.24e-10,
+        "fdr": 9.54e-05,
+        "description": "(2014) In vitro assays to monitor the activity of Pseudomonas aeruginosa Type III secreted proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24143275",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 9.52e-11,
+        "fdr": 9.54e-05,
+        "description": "(2013) Metastatic MTLn3 and non-metastatic MTC adenocarcinoma cells can be differentiated by Pseudomonas aeruginosa."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36558830",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.6e-10,
+        "fdr": 0.0001,
+        "description": "(2022) 14-3-3 Activated Bacterial Exotoxins AexT and ExoT Share Actin and the SH2 Domains of CRK Proteins as Targets for ADP-Ribosylation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30885922",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15717",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ELAVL1",
+            "RDX"
+        ],
+        "p_value": 2.03e-10,
+        "fdr": 0.0001,
+        "description": "(2019) Novel exc Genes Involved in Formation of the Tubular Excretory Canals of Caenorhabditis elegans."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26980710",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 61,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 1.64e-10,
+        "fdr": 0.0001,
+        "description": "(2016) FAK and paxillin, two potential targets in pancreatic cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30352800",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.53e-10,
+        "fdr": 0.00012,
+        "description": "(2019) Therapeutic Potential of Focal Adhesion Kinase Inhibition in Small Cell Lung Cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30669557",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 72,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 3.62e-10,
+        "fdr": 0.00015,
+        "description": "(2019) Arf GAPs as Regulators of the Actin Cytoskeleton-An Update."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24642576",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 4.62e-10,
+        "fdr": 0.00018,
+        "description": "(2014) Altering FAK-paxillin interactions reduces adhesion, migration and invasion processes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37749625",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 79,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q96ST3",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "SIN3A",
+            "RDX"
+        ],
+        "p_value": 5.64e-10,
+        "fdr": 0.0002,
+        "description": "(2023) Focal adhesion kinase: from biological functions to therapeutic strategies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30362624",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "RDX"
+        ],
+        "p_value": 6.6e-10,
+        "fdr": 0.00022,
+        "description": "(2019) TgDrpC, an atypical dynamin-related protein in Toxoplasma gondii, is associated with vesicular transport factors and parasite division."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30224724",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 6.6e-10,
+        "fdr": 0.00022,
+        "description": "(2018) 14-3-3 proteins activate Pseudomonas exotoxins-S and -T by chaperoning a hydrophobic surface."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:21289086",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "Q9ULH1"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "ASAP1"
+        ],
+        "p_value": 6.6e-10,
+        "fdr": 0.00022,
+        "description": "(2011) FAK phosphorylation at Tyr-925 regulates cross-talk between focal adhesion turnover and cell protrusion."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:15479735",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 23,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "RDX"
+        ],
+        "p_value": 9.15e-10,
+        "fdr": 0.00025,
+        "description": "(2004) A role for talin in presynaptic function."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:20101634",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.07e-09,
+        "fdr": 0.00028,
+        "description": "(2010) Integrin signaling through FAK in the regulation of mammary stem cells and breast cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37508384",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.24e-09,
+        "fdr": 0.00031,
+        "description": "(2023) Clutching at Guidance Cues: The Integrin-FAK Axis Steers Axon Outgrowth."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34525374",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.24e-09,
+        "fdr": 0.00031,
+        "description": "(2021) Myosin-X and talin modulate integrin activity at filopodia tips."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:17984318",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 26,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "RDX"
+        ],
+        "p_value": 1.43e-09,
+        "fdr": 0.00033,
+        "description": "(2007) Positive feedback between Cdc42 activity and H+ efflux by the Na-H exchanger NHE1 for polarity of migrating cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33796580",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15717",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ELAVL1",
+            "RDX"
+        ],
+        "p_value": 1.64e-09,
+        "fdr": 0.00036,
+        "description": "(2021) Roles of Parathyroid Hormone-Related Protein (PTHrP) and Its Receptor (PTHR1) in Normal and Tumor Tissues: Focus on Their Roles in Osteosarcoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30189292",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 101,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "Q9ULH1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "ASAP1",
+            "RDX"
+        ],
+        "p_value": 1.84e-09,
+        "fdr": 0.00038,
+        "description": "(2019) Druggable targets in the Rho pathway and their promise for therapeutic control of blood pressure."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34822560",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-09,
+        "fdr": 0.00043,
+        "description": "(2021) The Role of Pseudomonas aeruginosa Virulence Factors in Cytoskeletal Dysregulation and Lung Barrier Dysfunction."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28807942",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q96ST3",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "SIN3A",
+            "RDX"
+        ],
+        "p_value": 2.13e-09,
+        "fdr": 0.00043,
+        "description": "(2017) Nuclear FAK and Runx1 Cooperate to Regulate IGFBP3, Cell-Cycle Progression, and Tumor Growth."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38117590",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Cooperative polarization of MCAMCD146 and ERM family proteins in melanoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38156783",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2024) Role of cell membrane homeostasis in the pathogenicity of pathogenic filamentous fungi."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38167320",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2024) Novel compound heterozygous MYO15A splicing variants in autosomal recessive non-syndromic hearing loss."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38267610",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.05e-07,
+        "fdr": 0.00045,
+        "description": "(2024) Microscopic clusters feature the composition of biochemical tetraspanin-assemblies and constitute building-blocks of tetraspanin enriched domains."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38267973",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.84e-08,
+        "fdr": 0.00045,
+        "description": "(2024) The role of moesin in diagnosing and assessing severity of lymphangioleiomyomatosis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38279119",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.84e-08,
+        "fdr": 0.00045,
+        "description": "(2024) Truncated FRMD7 proteins in congenital Nystagmus: novel frameshift mutations and proteasomal pathway implications."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38416831",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Structural analysis of PTPN21 reveals a dominant-negative effect of the FERM domain on its phosphatase activity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38432625",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Mechanism of Induction of P-gp Activity During MET Induced by DEX in Lung Cancer Cell Line."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38450250",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2024) A bipartite NLS motif mediates the nuclear import of Drosophila moesin."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38640733",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00045,
+        "description": "(2024) Moesin deficiency leads to lupus-like nephritis with accumulation of CXCL13-producing patrolling monocytes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38879686",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.84e-08,
+        "fdr": 0.00045,
+        "description": "(2024) NF2: An underestimated player in cancer metabolic reprogramming and tumor immunity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38936119",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2024) Tandem Mass Tag-based proteomic analysis of protein changes in superchilled crayfish (Procambarus clarkii) presoaked with carrageenan oligosaccharides."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38946084",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Electromagnetic field-induced adaptive response in Schwann cells through DNA methylation, histone deacetylation, and oxidative stress."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39026000",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Ezrin, radixin, and moesin are dispensable for macrophage migration and cellular cortex mechanics."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39062914",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Structural Basis for the Interaction between the Ezrin FERM-Domain and Human Aquaporins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39077779",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Hippo pathway inactivation through subcellular localization of NF2merlin in outer cells of mouse embryos."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39241071",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Excitable Rho dynamics control cell shape and motility by sequentially activating ERM proteins and actomyosin contractility."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39243677",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Phosphorylated ERM regulates meiotic maturation in mouse oocytes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39272798",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2024) Sulfamoylated Estradiol Analogs Targeting the Actin and Microtubule Cytoskeletons Demonstrate Anti-Cancer Properties In Vitro and In Ovo."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39285780",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2024) A pilot study: Examining cytoskeleton gene expression profiles in Pakistani children with autism spectrum disorder."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39457653",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Radixin: Roles in the Nervous System and Beyond."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39605335",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2024) The Synergy between Topography and Lipid Domains in the Plasma Membrane of Mast Cells Controls the Localization of Signaling Proteins and Facilitates their Coordinated Activation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39637489",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2024) Immunohistochemical assessment of ERM proteins (ezrin, radixin, moesin) in the ovaries of different species."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36434399",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Proteome derangement in malignant epithelial cells and its stroma following exposure to 4-(methylnitrosamino)-1-(3-pyridyl)-1-butanone."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36522839",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.86e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Special AT-rich sequence binding protein 1 promotes multidrug resistance in gastric cancer by regulation of Ezrin to alter subcellular localization of ATP-binding cassette transporters."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36528873",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Follistatin is a crucial chemoattractant for mouse decidualized endometrial stromal cell migration by JNK signalling."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36549592",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2023) A simple, highly sensitive, and facile method to quantify ceramide at the plasma membrane."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36614319",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.21e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Activated Leukocyte Cell Adhesion Molecule (ALCAM), a Potential Seed and Soil Receptor in the Peritoneal Metastasis of Gastrointestinal Cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36653830",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.05e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Post-warming culture of human vitrified blastocysts with prolactin improves trophoblast outgrowth."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36662671",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.05e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Prominin-1 promotes restitution of the murine extrahepatic biliary luminal epithelium following cholestatic liver injury."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36678572",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Identification of Novel Small Molecule Ligands for JAK2 Pseudokinase Domain."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36678617",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Integrative Ligand-Based Pharmacophore Modeling, Virtual Screening, and Molecular Docking Simulation Approaches Identified Potential Lead Compounds against Pancreatic Cancer by Targeting FAK1."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36694362",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Glioblastoma Spheroid Invasion through Soft, Brain-Like Matrices Depends on Hyaluronic Acid-CD44 Interactions."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36733291",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2023) Effective cell membrane tension is independent of polyacrylamide substrate stiffness."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36768572",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.86e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Moderate Constraint Facilitates Association and Force-Dependent Dissociation of HA-CD44 Complex."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36771129",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Three-Dimensional-QSAR and Relative Binding Affinity Estimation of Focal Adhesion Kinase Inhibitors."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36814382",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2023) FERM domains recruit ample PI(4,5)P2s to form extensive protein-membrane attachments."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36817598",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2023) The role of androgens in pressure overload myocardial hypertrophy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36827209",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.05e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Photothermal Attenuation of Cancer Cell Stemness, Chemoresistance, and Migration Using CD44-Targeted MoS2 Nanosheets."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36833273",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) FRMD7 Gene Alterations in a Pakistani Family Associated with Congenital Idiopathic Nystagmus."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36848241",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Bioinspired Membrane Interfaces: Controlling Actomyosin Architecture and Contractility."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36867534",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.21e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Structural basis of Janus kinase trans-activation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36899847",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Ezrin and Its Phosphorylated Thr567 Form Are Key Regulators of Human Extravillous Trophoblast Motility and Invasion."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36926194",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.21e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Hypoxia enhances interactions between Na(+)H(+) exchanger isoform 1 and actin filaments via ezrin in pulmonary vascular smooth muscle."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36975491",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Development of a Novel Anti-CD44 Variant 4 Monoclonal Antibody C44Mab-108 for Immunohistochemistry."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37036883",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) MmuPV1 E7s interaction with PTPN14 delays Epithelial differentiation and contributes to virus-induced skin disease."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37051546",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 61,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.49e-08,
+        "fdr": 0.00045,
+        "description": "(2023) MACC1-induced migration in tumors: Current state and perspective."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37060526",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2023) FERM domain-containing protein FRMD6 activates the mTOR signaling pathway and promotes lung cancer progression."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37061568",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Telocytes and ezrin expression in normal-appearing tissues adjacent to urothelial bladder carcinoma as predictors of invasiveness and recurrence."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37080214",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 3,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.58e-09,
+        "fdr": 0.00045,
+        "description": "(2023) Comparison of thermal and athermal dynamics of the cell membrane slope fluctuations in the presence and absence of Latrunculin-B."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37161290",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Quantitative single molecule analysis of podoplanin clustering in fibroblastic reticular cells uncovers CD44 function."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37168576",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.21e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Dynamics of cell rounding during detachment."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37189735",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Cellular Membrane Localization of Innate Immune Checkpoint Molecule CD47 Is Regulated by Radixin in Human Pancreatic Ductal Adenocarcinoma Cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37214396",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Molecular genetic features and clinical manifestations in Chinese familial cerebral cavernous malformation: from a novel KRIT1CCM1 mutation (c.1119dupT) to an overall view."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37235645",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 13,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.21e-08,
+        "fdr": 0.00045,
+        "description": "(2023) A noncommutative combinatorial protein logic circuit controls cell orientation in nanoenvironments."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37237555",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 64,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15717",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ELAVL1",
+            "RDX"
+        ],
+        "p_value": 4.2e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Intercellular Adhesion Molecule 1: More than a Leukocyte Adhesion Molecule."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37273383",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2023) A Comparison of Podoplanin Expression in Oral Leukoplakia and Oral Squamous Cell Carcinoma: An Immunohistochemical Study."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37292860",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 8,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.13e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Development of FERM domain protein-protein interaction inhibitors for MSN and CD44 as a potential therapeutic strategy for Alzheimers disease."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37301410",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2023) Inherited human ezrin deficiency impairs adaptive immunity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37317855",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) CLIC4 Regulates Endothelial Barrier Control by Mediating PAR1 Signaling via RhoA."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37339195",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Kindlin stabilizes the talin.integrin bond under mechanical load by generating an ideal bond."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37364502",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 4,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 4.52e-09,
+        "fdr": 0.00045,
+        "description": "(2023) Radixin modulates the plasma membrane localization of CD47 in human uterine cervical adenocarcinoma cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37405069",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 10,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.69e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Immunohistochemical markers for equine granulosa cell tumors: a pilot study."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37468163",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Loss of polarity regulators initiates gasdermin-E-mediated pyroptosis in syncytiotrophoblasts."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37570280",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Association between Polymorphism in the Janus Kinase 2 (JAK2) Gene and Selected Performance Traits in Cattle and Sheep."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37576222",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 49,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "RDX"
+        ],
+        "p_value": 1.52e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Transposon delivery for CRISPR-based loss-of-function screen in mice identifies NF2 as a cooperating gene involved with the canonical WNT signaling molecular class of hepatocellular carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37593530",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 8.76e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Expression of CD44 in Head and Neck Squamous Cell Carcinoma-An In-Silico Study."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37604830",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.25e-07,
+        "fdr": 0.00045,
+        "description": "(2023) Roles unveiled for membrane-associated mucins at the ocular surface using a Muc4 knockout mouse model."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37674659",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Prognostic Nomogram for Lymph-Node Metastasis in Oral Squamous Cell Carcinoma (OSCC) Using Immunohistochemical Marker D2-40."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37680228",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2023) NHERF1EBP50 immunoexpression in renal cell carcinomas and oncocytomas with ultrastructural analysis of clear cell renal cell carcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37760437",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 46,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.19e-08,
+        "fdr": 0.00045,
+        "description": "(2023) MicroRNAs Can Influence Ovarian Cancer Progression by Dysregulating Integrin Activity."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37791063",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.55e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Ezrin promotes esophageal squamous cell carcinoma progression via the Hippo signaling pathway."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37799273",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 80,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "Q93009",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "USP7",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 9.9e-08,
+        "fdr": 0.00045,
+        "description": "(2023) Cell-specific secretory granule sorting mechanisms: the role of MAGEL2 and retromer in hypothalamic regulated secretion."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37806106",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 5,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.23e-09,
+        "fdr": 0.00045,
+        "description": "(2023) PAR1 regulates sepsis-induced vascular endothelial barrier dysfunction by mediating ERM phosphorylation via the RhoAROCK signaling pathway."
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-437239",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.65e-06,
+        "fdr": 0.0061,
+        "description": "Recycling pathway of L1"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662360",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 68,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 7.24e-06,
+        "fdr": 0.0061,
+        "description": "Sensory processing of sound by inner hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662361",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 3.72e-06,
+        "fdr": 0.0061,
+        "description": "Sensory processing of sound by outer hair cells of the cochlea"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP5199",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 5.86e-08,
+        "fdr": 4.58e-05,
+        "description": "PtdIns(4,5)P2 in cytokinesis pathway"
+    },
+    {
+        "category": "WikiPathways",
+        "term": "WP51",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 149,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.1e-06,
+        "fdr": 0.00043,
+        "description": "Regulation of actin cytoskeleton"
+    },
+    {
+        "category": "NetworkNeighborAL",
+        "term": "CL:12565",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 6,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.08e-08,
+        "fdr": 4.96e-05,
+        "description": "Ezrin/radixin/moesin, and EBP50, C-terminal"
+    }
+]
