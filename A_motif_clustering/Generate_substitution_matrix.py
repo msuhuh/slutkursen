@@ -73,8 +73,10 @@ adjusted_diagonal_values = {}
 # First, we calculate the total of the diagonal values
 total_diag = sum(diagonal_values)
 
+# Sort the amino acids 
 sorted_freqs = dict(sorted(renormalized_inverted.items(), key=lambda item: item[1]))
 
+# Adjusted diagonal values based on the frequencies 
 i = 0
 for keys in sorted_freqs:
     adjusted_diagonal_values[keys] = diagonal_values[i]
