@@ -1,0 +1,47 @@
+Cluster TRUE Percentages by Subfolder:
+
+Cluster algorithm: eigenvector_
+Cluster: [Arenaviridae, Reoviridae, Adenoviridae, Rhabdoviridae, Filoviridae, Herpesviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Paramyxoviridae, Pneumoviridae, Phenuiviridae, Orthomyxoviridae, Birnaviridae, Coronaviridae, Astroviridae, Picornaviridae, Flaviviridae, Hepadnaviridae, Caliciviridae, Togaviridae], TRUE Percentage: 100.00%
+Cluster: [Hantaviridae, Papillomaviridae, Bornaviridae, Kolmioviridae, Polyomaviridae], TRUE Percentage: 100.00%
+Cluster: [Anelloviridae, Tobaniviridae, Nairoviridae, Retroviridae, Hepeviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: fastgreedy_
+Cluster: [Rhabdoviridae, Reoviridae, Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Paramyxoviridae, Orthomyxoviridae, Coronaviridae, Picornaviridae, Caliciviridae], TRUE Percentage: 100.00%
+Cluster: [Anelloviridae, Retroviridae, Hepeviridae, Nairoviridae], TRUE Percentage: 100.00%
+Cluster: [Arenaviridae, Pneumoviridae, Picobirnaviridae], TRUE Percentage: 100.00%
+Cluster: [Kolmioviridae, Togaviridae, Papillomaviridae, Astroviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: infomap10_
+Cluster: [Paramyxoviridae, Poxviridae, Rhabdoviridae, Reoviridae, Adenoviridae, Filoviridae, Herpesviridae, Caliciviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Papillomaviridae, Astroviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: leiden_CPM_res0.01_
+Cluster: [Poxviridae, Rhabdoviridae, Reoviridae, Adenoviridae, Retroviridae, Filoviridae, Herpesviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Togaviridae, Astroviridae], TRUE Percentage: 80.00%
+Cluster: [Orthomyxoviridae, Paramyxoviridae], TRUE Percentage: 100.00%
+Cluster: [Kolmioviridae, Papillomaviridae], TRUE Percentage: 100.00%
+Cluster: [Arenaviridae, Pneumoviridae], TRUE Percentage: 100.00%
+Cluster: [Anelloviridae, Nairoviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: leiden_mod_res1_
+Cluster: [Rhabdoviridae, Reoviridae, Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Togaviridae, Astroviridae, Arteriviridae], TRUE Percentage: 80.00%
+Cluster: [Orthomyxoviridae, Paramyxoviridae, Coronaviridae], TRUE Percentage: 100.00%
+Cluster: [Anelloviridae, Tobaniviridae, Nairoviridae, Retroviridae, Hepeviridae], TRUE Percentage: 100.00%
+Cluster: [Kolmioviridae, Picobirnaviridae, Papillomaviridae, Hepadnaviridae], TRUE Percentage: 100.00%
+Cluster: [Arenaviridae, Pneumoviridae, Phenuiviridae], TRUE Percentage: 100.00%
+Cluster: [Picornaviridae, Caliciviridae, Peribunyaviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: louvain_
+Cluster: [Rhabdoviridae, Reoviridae, Adenoviridae, Filoviridae, Herpesviridae, Parvoviridae], TRUE Percentage: 100.00%
+Cluster: [Papillomaviridae, Astroviridae, Bornaviridae, Arteriviridae, Togaviridae], TRUE Percentage: 100.00%
+Cluster: [Orthomyxoviridae, Paramyxoviridae, Coronaviridae], TRUE Percentage: 100.00%
+Cluster: [Anelloviridae, Tobaniviridae, Nairoviridae, Retroviridae, Hepeviridae], TRUE Percentage: 100.00%
+Cluster: [Kolmioviridae, Flaviviridae, Polyomaviridae], TRUE Percentage: 100.00%
+Cluster: [Arenaviridae, Pneumoviridae, Picobirnaviridae], TRUE Percentage: 100.00%
+Cluster: [Picornaviridae, Caliciviridae, Peribunyaviridae], TRUE Percentage: 100.00%
+
+Cluster algorithm: walktrap2_
+Cluster: [Paramyxoviridae, Poxviridae, Arenaviridae, Papillomaviridae, Adenoviridae, Reoviridae, Retroviridae, Rhabdoviridae, Coronaviridae, Filoviridae, Picornaviridae, Herpesviridae, Caliciviridae, Parvoviridae, Hepeviridae, Polyomaviridae], TRUE Percentage: 100.00%

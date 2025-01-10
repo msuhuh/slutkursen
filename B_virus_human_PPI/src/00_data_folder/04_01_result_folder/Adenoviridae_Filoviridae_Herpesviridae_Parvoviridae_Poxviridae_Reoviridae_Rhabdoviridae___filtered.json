@@ -1,0 +1,58 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-1236394",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 58,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.61e-07,
+        "fdr": 0.0013,
+        "description": "Signaling by ERBB4"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1253288",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 4.24e-06,
+        "fdr": 0.0048,
+        "description": "Downregulation of ERBB4 signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8948747",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4"
+        ],
+        "p_value": 4.24e-06,
+        "fdr": 0.0048,
+        "description": "Regulation of PTEN localization"
+    }
+]

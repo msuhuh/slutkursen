@@ -1,0 +1,1104 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-162582",
+        "number_of_genes": 18,
+        "number_of_genes_in_background": 2540,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q7Z6J0",
+            "P46108",
+            "P62136",
+            "P36873",
+            "Q93009",
+            "P06241",
+            "O00308",
+            "P42566",
+            "Q15811",
+            "O43791",
+            "Q96PU5",
+            "P29353",
+            "Q96CW1",
+            "P46934",
+            "Q9H0M0",
+            "P07947",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SH3RF1",
+            "CRK",
+            "PPP1CA",
+            "PPP1CC",
+            "USP7",
+            "FYN",
+            "WWP2",
+            "EPS15",
+            "ITSN1",
+            "SPOP",
+            "NEDD4L",
+            "SHC1",
+            "AP2M1",
+            "NEDD4",
+            "WWP1",
+            "YES1",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.5e-08,
+        "fdr": 2.22e-05,
+        "description": "Signal Transduction"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9006934",
+        "number_of_genes": 10,
+        "number_of_genes_in_background": 521,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P42566",
+            "P29353",
+            "Q96CW1",
+            "P46934",
+            "Q9H0M0",
+            "P07947",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "EPS15",
+            "SHC1",
+            "AP2M1",
+            "NEDD4",
+            "WWP1",
+            "YES1",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 9.71e-09,
+        "fdr": 2.22e-05,
+        "description": "Signaling by Receptor Tyrosine Kinases"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9675108",
+        "number_of_genes": 10,
+        "number_of_genes_in_background": 575,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P06241",
+            "P26038",
+            "Q15811",
+            "P29353",
+            "Q96CW1",
+            "Q15287",
+            "P07947",
+            "P46937",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "FYN",
+            "MSN",
+            "ITSN1",
+            "SHC1",
+            "AP2M1",
+            "RNPS1",
+            "YES1",
+            "YAP1",
+            "RDX"
+        ],
+        "p_value": 2.43e-08,
+        "fdr": 2.22e-05,
+        "description": "Nervous system development"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1236394",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 58,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P29353",
+            "P46934",
+            "Q9H0M0",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SHC1",
+            "NEDD4",
+            "WWP1",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 6.25e-08,
+        "fdr": 3.57e-05,
+        "description": "Signaling by ERBB4"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-422475",
+        "number_of_genes": 9,
+        "number_of_genes_in_background": 551,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P06241",
+            "P26038",
+            "Q15811",
+            "P29353",
+            "Q96CW1",
+            "Q15287",
+            "P07947",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "FYN",
+            "MSN",
+            "ITSN1",
+            "SHC1",
+            "AP2M1",
+            "RNPS1",
+            "YES1",
+            "RDX"
+        ],
+        "p_value": 2.35e-07,
+        "fdr": 0.00011,
+        "description": "Axon guidance"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1253288",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "Q9H0M0",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "WWP1",
+            "ITCH"
+        ],
+        "p_value": 9.28e-07,
+        "fdr": 0.00035,
+        "description": "Downregulation of ERBB4 signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1266738",
+        "number_of_genes": 11,
+        "number_of_genes_in_background": 1108,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P06241",
+            "P61964",
+            "P26038",
+            "Q15811",
+            "P29353",
+            "Q96CW1",
+            "Q15287",
+            "P07947",
+            "P46937",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "FYN",
+            "WDR5",
+            "MSN",
+            "ITSN1",
+            "SHC1",
+            "AP2M1",
+            "RNPS1",
+            "YES1",
+            "YAP1",
+            "RDX"
+        ],
+        "p_value": 1.13e-06,
+        "fdr": 0.00037,
+        "description": "Developmental Biology"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-437239",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q96CW1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "AP2M1",
+            "RDX"
+        ],
+        "p_value": 1.66e-06,
+        "fdr": 0.00047,
+        "description": "Recycling pathway of L1"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-512988",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P29353",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "SHC1",
+            "YES1"
+        ],
+        "p_value": 1.66e-06,
+        "fdr": 0.00047,
+        "description": "Interleukin-3, Interleukin-5 and GM-CSF signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-912631",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 9.56e-06,
+        "fdr": 0.0022,
+        "description": "Regulation of signaling by CBL"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2173788",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 26,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P62136",
+            "P36873",
+            "Q96PU5"
+        ],
+        "preferredNames": [
+            "PPP1CA",
+            "PPP1CC",
+            "NEDD4L"
+        ],
+        "p_value": 1.51e-05,
+        "fdr": 0.0031,
+        "description": "Downregulation of TGF-beta receptor signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2682334",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 92,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "Q15811",
+            "Q96CW1",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "ITSN1",
+            "AP2M1",
+            "YES1"
+        ],
+        "p_value": 1.93e-05,
+        "fdr": 0.0037,
+        "description": "EPH-Ephrin signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9680350",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 31,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P29353",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SHC1",
+            "YES1"
+        ],
+        "p_value": 2.46e-05,
+        "fdr": 0.0043,
+        "description": "Signaling by CSF1 (M-CSF) in myeloid cells"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1280218",
+        "number_of_genes": 8,
+        "number_of_genes_in_background": 758,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q7Z6J0",
+            "P06241",
+            "Q96PU5",
+            "Q96CW1",
+            "P46934",
+            "Q9H0M0",
+            "P07947",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SH3RF1",
+            "FYN",
+            "NEDD4L",
+            "AP2M1",
+            "NEDD4",
+            "WWP1",
+            "YES1",
+            "ITCH"
+        ],
+        "p_value": 2.91e-05,
+        "fdr": 0.0047,
+        "description": "Adaptive Immune System"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928662",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 42,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "Q15811",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "ITSN1",
+            "YES1"
+        ],
+        "p_value": 5.76e-05,
+        "fdr": 0.0082,
+        "description": "EPHB-mediated forward signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1643685",
+        "number_of_genes": 11,
+        "number_of_genes_in_background": 1702,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P36873",
+            "P06241",
+            "P51114",
+            "P26038",
+            "P42566",
+            "Q96PU5",
+            "P29353",
+            "Q96CW1",
+            "P07947",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "CRK",
+            "PPP1CC",
+            "FYN",
+            "FXR1",
+            "MSN",
+            "EPS15",
+            "NEDD4L",
+            "SHC1",
+            "AP2M1",
+            "YES1",
+            "ITCH"
+        ],
+        "p_value": 6.55e-05,
+        "fdr": 0.0088,
+        "description": "Disease"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-166520",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 134,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P29353",
+            "Q96CW1"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "SHC1",
+            "AP2M1"
+        ],
+        "p_value": 8.01e-05,
+        "fdr": 0.0094,
+        "description": "Signaling by NTRKs"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5663202",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 430,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P36873",
+            "P06241",
+            "P51114",
+            "P26038",
+            "P29353",
+            "P07947"
+        ],
+        "preferredNames": [
+            "PPP1CC",
+            "FYN",
+            "FXR1",
+            "MSN",
+            "SHC1",
+            "YES1"
+        ],
+        "p_value": 7.51e-05,
+        "fdr": 0.0094,
+        "description": "Diseases of signal transduction by growth factor receptors and second messengers"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1227986",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P29353",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SHC1",
+            "YES1"
+        ],
+        "p_value": 9.43e-05,
+        "fdr": 0.0103,
+        "description": "Signaling by ERBB2"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928665",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 51,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "Q96CW1",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "AP2M1",
+            "YES1"
+        ],
+        "p_value": 9.97e-05,
+        "fdr": 0.0103,
+        "description": "EPH-ephrin mediated repulsion of cells"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662361",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 0.00012,
+        "fdr": 0.0116,
+        "description": "Sensory processing of sound by outer hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8948747",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4"
+        ],
+        "p_value": 0.00015,
+        "fdr": 0.0141,
+        "description": "Regulation of PTEN localization"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-983168",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 303,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q7Z6J0",
+            "Q96PU5",
+            "P46934",
+            "Q9H0M0",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SH3RF1",
+            "NEDD4L",
+            "NEDD4",
+            "WWP1",
+            "ITCH"
+        ],
+        "p_value": 0.00015,
+        "fdr": 0.0141,
+        "description": "Antigen processing: Ubiquitination & Proteasome degradation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9664422",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 62,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00017,
+        "fdr": 0.0152,
+        "description": "FCGR3A-mediated phagocytosis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662360",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 68,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 0.00023,
+        "fdr": 0.0177,
+        "description": "Sensory processing of sound by inner hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-210990",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00024,
+        "fdr": 0.0185,
+        "description": "PECAM1 interactions"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-168256",
+        "number_of_genes": 11,
+        "number_of_genes_in_background": 1979,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q7Z6J0",
+            "P46108",
+            "P06241",
+            "P26038",
+            "Q96PU5",
+            "P29353",
+            "Q96CW1",
+            "P46934",
+            "Q9H0M0",
+            "P07947",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SH3RF1",
+            "CRK",
+            "FYN",
+            "MSN",
+            "NEDD4L",
+            "SHC1",
+            "AP2M1",
+            "NEDD4",
+            "WWP1",
+            "YES1",
+            "ITCH"
+        ],
+        "p_value": 0.00025,
+        "fdr": 0.0186,
+        "description": "Immune System"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-6806834",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 79,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P42566",
+            "P29353"
+        ],
+        "preferredNames": [
+            "CRK",
+            "EPS15",
+            "SHC1"
+        ],
+        "p_value": 0.00034,
+        "fdr": 0.0239,
+        "description": "Signaling by MET"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2029481",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00036,
+        "fdr": 0.0244,
+        "description": "FCGR activation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1433559",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 16,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00041,
+        "fdr": 0.0259,
+        "description": "Regulation of KIT signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2029480",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 89,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00048,
+        "fdr": 0.0298,
+        "description": "Fcgamma receptor (FCGR) dependent phagocytosis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2730905",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P29353"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SHC1"
+        ],
+        "p_value": 0.00056,
+        "fdr": 0.0327,
+        "description": "Role of LAT2/NTAL/LAB on calcium mobilization"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9670439",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 20,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00061,
+        "fdr": 0.035,
+        "description": "Signaling by phosphorylated juxtamembrane, extracellular and kinase domain KIT mutants"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-389513",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 21,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.00067,
+        "fdr": 0.0365,
+        "description": "CTLA4 inhibitory signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-5663205",
+        "number_of_genes": 7,
+        "number_of_genes_in_background": 917,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P42566",
+            "Q96PU5",
+            "Q96CW1",
+            "P07947",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "EPS15",
+            "NEDD4L",
+            "AP2M1",
+            "YES1",
+            "ITCH"
+        ],
+        "p_value": 0.00071,
+        "fdr": 0.0376,
+        "description": "Infectious disease"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8856825",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 105,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P42566",
+            "Q15811",
+            "Q96CW1"
+        ],
+        "preferredNames": [
+            "EPS15",
+            "ITSN1",
+            "AP2M1"
+        ],
+        "p_value": 0.00077,
+        "fdr": 0.0401,
+        "description": "Cargo recognition for clathrin-mediated endocytosis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-163560",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P62136",
+            "P36873"
+        ],
+        "preferredNames": [
+            "PPP1CA",
+            "PPP1CC"
+        ],
+        "p_value": 0.00086,
+        "fdr": 0.0436,
+        "description": "Triglyceride catabolism"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8940973",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 24,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P07947",
+            "P46937"
+        ],
+        "preferredNames": [
+            "YES1",
+            "YAP1"
+        ],
+        "p_value": 0.00086,
+        "fdr": 0.0436,
+        "description": "RUNX2 regulates osteoblast differentiation"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-449147",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 453,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P26038",
+            "P29353",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "MSN",
+            "SHC1",
+            "YES1"
+        ],
+        "p_value": 0.00091,
+        "fdr": 0.0444,
+        "description": "Signaling by Interleukins"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9006115",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 25,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P29353"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SHC1"
+        ],
+        "p_value": 0.00093,
+        "fdr": 0.0444,
+        "description": "Signaling by NTRK2 (TRKB)"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-187037",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 115,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P29353",
+            "Q96CW1"
+        ],
+        "preferredNames": [
+            "CRK",
+            "SHC1",
+            "AP2M1"
+        ],
+        "p_value": 0.001,
+        "fdr": 0.0465,
+        "description": "Signaling by NTRK1 (TRKA)"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1257604",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 266,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P06241",
+            "O00308",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "FYN",
+            "WWP2",
+            "NEDD4"
+        ],
+        "p_value": 0.001,
+        "fdr": 0.0469,
+        "description": "PIP3 activates AKT signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1280215",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 706,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P06241",
+            "P26038",
+            "P29353",
+            "P46934",
+            "P07947"
+        ],
+        "preferredNames": [
+            "CRK",
+            "FYN",
+            "MSN",
+            "SHC1",
+            "NEDD4",
+            "YES1"
+        ],
+        "p_value": 0.001,
+        "fdr": 0.0469,
+        "description": "Cytokine Signaling in Immune system"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-164952",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "Q96CW1"
+        ],
+        "preferredNames": [
+            "FYN",
+            "AP2M1"
+        ],
+        "p_value": 0.0011,
+        "fdr": 0.047,
+        "description": "The role of Nef in HIV-1 replication and disease pathogenesis"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-354192",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 27,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46108",
+            "P29353"
+        ],
+        "preferredNames": [
+            "CRK",
+            "SHC1"
+        ],
+        "p_value": 0.0011,
+        "fdr": 0.047,
+        "description": "Integrin signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8878166",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 119,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q9H0M0",
+            "P07947",
+            "P46937"
+        ],
+        "preferredNames": [
+            "WWP1",
+            "YES1",
+            "YAP1"
+        ],
+        "p_value": 0.0011,
+        "fdr": 0.047,
+        "description": "Transcriptional regulation by RUNX2"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-2424491",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P29353"
+        ],
+        "preferredNames": [
+            "FYN",
+            "SHC1"
+        ],
+        "p_value": 0.0012,
+        "fdr": 0.0499,
+        "description": "DAP12 signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-3928663",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P06241",
+            "P07947"
+        ],
+        "preferredNames": [
+            "FYN",
+            "YES1"
+        ],
+        "p_value": 0.0012,
+        "fdr": 0.0499,
+        "description": "EPHA-mediated growth cone collapse"
+    }
+]

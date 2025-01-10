@@ -1,0 +1,122 @@
+[
+    {
+        "category": "RCTM",
+        "term": "HSA-437239",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q96CW1",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "AP2M1",
+            "RDX"
+        ],
+        "p_value": 9.98e-08,
+        "fdr": 0.00023,
+        "description": "Recycling pathway of L1"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-422475",
+        "number_of_genes": 6,
+        "number_of_genes_in_background": 551,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "Q15811",
+            "Q96CW1",
+            "Q15287",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "ITSN1",
+            "AP2M1",
+            "RNPS1",
+            "RDX"
+        ],
+        "p_value": 4.7e-06,
+        "fdr": 0.0038,
+        "description": "Axon guidance"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662361",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 1.51e-05,
+        "fdr": 0.0069,
+        "description": "Sensory processing of sound by outer hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-9662360",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 68,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P15311",
+            "P26038",
+            "P35241"
+        ],
+        "preferredNames": [
+            "EZR",
+            "MSN",
+            "RDX"
+        ],
+        "p_value": 2.93e-05,
+        "fdr": 0.0112,
+        "description": "Sensory processing of sound by inner hair cells of the cochlea"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-162582",
+        "number_of_genes": 9,
+        "number_of_genes_in_background": 2540,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q7Z6J0",
+            "P62136",
+            "Q93009",
+            "O00308",
+            "Q15811",
+            "O43791",
+            "Q96PU5",
+            "Q96CW1",
+            "Q9H0M0"
+        ],
+        "preferredNames": [
+            "SH3RF1",
+            "PPP1CA",
+            "USP7",
+            "WWP2",
+            "ITSN1",
+            "SPOP",
+            "NEDD4L",
+            "AP2M1",
+            "WWP1"
+        ],
+        "p_value": 9.08e-05,
+        "fdr": 0.0259,
+        "description": "Signal Transduction"
+    }
+]

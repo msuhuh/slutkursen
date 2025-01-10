@@ -1,0 +1,16 @@
+ Herpesviridae,84
+ Orthomyxoviridae,6
+ Rhabdoviridae,12
+ Papillomaviridae,8
+ Retroviridae,18
+ Filoviridae,25
+ Coronaviridae,6
+ Paramyxoviridae,1
+ Adenoviridae,6
+ Togaviridae,3
+ Matonaviridae,1
+ Hepadnaviridae,2
+ Flaviviridae,6
+ Poxviridae,4
+ Astroviridae,2
+ Hepeviridae,2

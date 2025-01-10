@@ -1,0 +1,1580 @@
+[
+    {
+        "category": "Process",
+        "term": "GO:0030163",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 755,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 4.89e-07,
+        "fdr": 0.0077,
+        "description": "Protein catabolic process"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0050847",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 4.24e-06,
+        "fdr": 0.0174,
+        "description": "Progesterone receptor signaling pathway"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0030522",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 148,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 8.67e-06,
+        "fdr": 0.0272,
+        "description": "Intracellular receptor signaling pathway"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0006511",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 578,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.08e-05,
+        "fdr": 0.0282,
+        "description": "Ubiquitin-dependent protein catabolic process"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0016567",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 682,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.07e-05,
+        "fdr": 0.0324,
+        "description": "Protein ubiquitination"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0044248",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 1620,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.12e-05,
+        "fdr": 0.0324,
+        "description": "Cellular catabolic process"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0000209",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 229,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 3.14e-05,
+        "fdr": 0.0362,
+        "description": "Protein polyubiquitination"
+    },
+    {
+        "category": "Process",
+        "term": "GO:0031329",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 789,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 3.66e-05,
+        "fdr": 0.0377,
+        "description": "Regulation of cellular catabolic process"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0833",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 695,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.22e-05,
+        "fdr": 0.0149,
+        "description": "Ubl conjugation pathway"
+    },
+    {
+        "category": "Keyword",
+        "term": "KW-0832",
+        "number_of_genes": 5,
+        "number_of_genes_in_background": 2399,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 0.00015,
+        "fdr": 0.0488,
+        "description": "Ubl conjugation"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00456",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 47,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.95e-10,
+        "fdr": 4.88e-07,
+        "description": "Domain with 2 conserved Trp (W) residues"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00061",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP"
+        ],
+        "p_value": 7.02e-06,
+        "fdr": 0.0029,
+        "description": "Meprin and TRAF homology"
+    },
+    {
+        "category": "SMART",
+        "term": "SM00119",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 28,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 3.35e-05,
+        "fdr": 0.0092,
+        "description": "Domain Homologous to E6-AP Carboxyl Terminus with"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR001202",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 7.52e-10,
+        "fdr": 3.94e-06,
+        "description": "WW domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR036020",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 46,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.48e-10,
+        "fdr": 3.94e-06,
+        "description": "WW domain superfamily"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR002083",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 12,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP"
+        ],
+        "p_value": 7.02e-06,
+        "fdr": 0.0168,
+        "description": "MATH/TRAF domain"
+    },
+    {
+        "category": "InterPro",
+        "term": "IPR008974",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 15,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP"
+        ],
+        "p_value": 1.05e-05,
+        "fdr": 0.0188,
+        "description": "TRAF-like"
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37743467",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 34,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.76e-10,
+        "fdr": 0.00088,
+        "description": "(2023) Synergistic effect of YOD1 and USP21 on the Hippo signaling pathway."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28724435",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 3.55e-10,
+        "fdr": 0.00089,
+        "description": "(2017) WW domain-binding protein 2: an adaptor protein closely linked to the development of breast cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22724073",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 58,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.33e-09,
+        "fdr": 0.0022,
+        "description": "(2012) Regulation of the transforming growth factor beta pathway by reversible ubiquitylation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22634283",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.88e-09,
+        "fdr": 0.0024,
+        "description": "(2012) Biophysical basis of the binding of WWOX tumor suppressor to WBP1 and WBP2 adaptors."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25417742",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 5.7e-09,
+        "fdr": 0.0057,
+        "description": "(2015) The Evaluation of WBP2NL-Related Genes Expression in Breast Cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24308844",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 11,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.7e-09,
+        "fdr": 0.0057,
+        "description": "(2013) Molecular origin of the binding of WWOX tumor suppressor to ErbB4 receptor tyrosine kinase."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35716775",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 14,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.06e-08,
+        "fdr": 0.0076,
+        "description": "(2022) Structural insights into the role of the WW2 domain on tandem WW-PPxY motif interactions of oxidoreductase WWOX."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35582023",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 105,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.32e-08,
+        "fdr": 0.0076,
+        "description": "(2021) The emerging roles of E3 ubiquitin ligases in ovarian cancer chemoresistance."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32984016",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 101,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.13e-08,
+        "fdr": 0.0076,
+        "description": "(2020) Role of Ubiquitination in PTEN Cellular Homeostasis and Its Implications in GB Drug Resistance."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28076420",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 17,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.78e-08,
+        "fdr": 0.0089,
+        "description": "(2017) Chaperone-Mediated Autophagy Protein BAG3 Negatively Regulates Ebola and Marburg VP40-Mediated Egress."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33935743",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 128,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 2.86e-08,
+        "fdr": 0.011,
+        "description": "(2021) E3 Ubiquitin Ligase in Anticancer Drugdsla Resistance: Recent Advances and Future Potential."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34639141",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 128,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.86e-08,
+        "fdr": 0.011,
+        "description": "(2021) Ubiquitination in T-Cell Activation and Checkpoint Inhibition: New Avenues for Targeted Cancer Immunotherapy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34745984",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 123,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 2.44e-08,
+        "fdr": 0.011,
+        "description": "(2021) E3 Ubiquitin Ligases in Breast Cancer Metastasis: A Systematic Review of Pathogenic Functions and Clinical Implications."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22194680",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 19,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4"
+        ],
+        "p_value": 2.41e-08,
+        "fdr": 0.011,
+        "description": "(2011) Switches, excitable responses and oscillations in the Ring1BBmi1 ubiquitination system."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36803368",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 22,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 3.6e-08,
+        "fdr": 0.012,
+        "description": "(2023) WWP2 drives the progression of gastric cancer by facilitating the ubiquitination and degradation of LATS1 protein."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37359559",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 137,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 3.73e-08,
+        "fdr": 0.012,
+        "description": "(2023) Elucidating the role of ubiquitination and deubiquitination in osteoarthritis progression."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38174069",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 149,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 5.18e-08,
+        "fdr": 0.0153,
+        "description": "(2023) Ubiquitin signaling in pancreatic ductal adenocarcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33158118",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 150,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.32e-08,
+        "fdr": 0.0153,
+        "description": "(2020) Deubiquitinating Enzyme-Mediated Signaling Networks in Cancer Stem Cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28061504",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 26,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.71e-08,
+        "fdr": 0.0153,
+        "description": "(2017) DUB3 Deubiquitylating Enzymes Regulate Hippo Pathway Activity by Regulating the Stability of ITCH, LATS and AMOT Proteins."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27462448",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 30,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 8.53e-08,
+        "fdr": 0.0194,
+        "description": "(2016) Deubiquitylating enzyme USP9x regulates hippo pathway activity by controlling angiomotin protein turnover."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26183061",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4"
+        ],
+        "p_value": 7.75e-08,
+        "fdr": 0.0194,
+        "description": "(2015) PI3KAKT activation induces PTEN ubiquitination and destabilization accelerating tumourigenesis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23667531",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 30,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "ITCH"
+        ],
+        "p_value": 8.53e-08,
+        "fdr": 0.0194,
+        "description": "(2013) The SOX2-interactome in brain cancer cells identifies the requirement of MSI2 and USP9X for the growth of brain tumor cells."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23873930",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 29,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 7.75e-08,
+        "fdr": 0.0194,
+        "description": "(2013) Cellular localization and characterization of cytosolic binding partners for Gla domain-containing proteins PRRG4 and PRRG2."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37190313",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 176,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O95817",
+            "O43791",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "BAG3",
+            "SPOP",
+            "NEDD4"
+        ],
+        "p_value": 9.96e-08,
+        "fdr": 0.0208,
+        "description": "(2023) The Ubiquitin-Proteasome System in Tumor Metabolism."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37822939",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 32,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4"
+        ],
+        "p_value": 1.02e-07,
+        "fdr": 0.0208,
+        "description": "(2023) Editorial: Community series in post-translational modifications of proteins in cancer immunity and immunotherapy, volume II."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:38104139",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 176,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 9.96e-08,
+        "fdr": 0.0208,
+        "description": "(2023) The involvement of E3 ubiquitin ligases in the development and progression of colorectal cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33155366",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 35,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4"
+        ],
+        "p_value": 1.32e-07,
+        "fdr": 0.0208,
+        "description": "(2021) BAP1 suppresses prostate cancer progression by deubiquitinating and stabilizing PTEN."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:33664240",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 34,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.21e-07,
+        "fdr": 0.0208,
+        "description": "(2021) E3 ubiquitin ligase RNF126 affects bladder cancer progression through regulation of PTEN stability."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32269044",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 32,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.02e-07,
+        "fdr": 0.0208,
+        "description": "(2020) EIF3H Orchestrates Hippo Pathway-Mediated Oncogenesis via Catalytic Control of YAP Stability."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26125558",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 32,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.02e-07,
+        "fdr": 0.0208,
+        "description": "(2015) Hippo Stabilises Its Adaptor Salvador by Antagonising the HECT Ubiquitin Ligase Herc4."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:25350971",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 33,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.12e-07,
+        "fdr": 0.0208,
+        "description": "(2014) The ubiquitin E3 ligase ITCH enhances breast tumor progression by inhibiting the Hippo tumor suppressor pathway."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:22773947",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 34,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.21e-07,
+        "fdr": 0.0208,
+        "description": "(2012) USP11 augments TGFbeta signalling by deubiquitylating ALK5."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32486158",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 194,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.46e-07,
+        "fdr": 0.0217,
+        "description": "(2020) Regulation of Wnt Signaling through Ubiquitination and Deubiquitination in Cancers."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24548561",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 36,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.43e-07,
+        "fdr": 0.0217,
+        "description": "(2014) The Angiomotins--from discovery to function."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30609802",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 37,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.54e-07,
+        "fdr": 0.0221,
+        "description": "(2019) Host and Viral Proteins Modulating Ebola and Marburg Virus Egress."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:28580429",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 37,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.54e-07,
+        "fdr": 0.0221,
+        "description": "(2017) Specific targeting of the deubiquitinase and E3 ligase families with engineered ubiquitin variants."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30619335",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 39,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 1.79e-07,
+        "fdr": 0.0243,
+        "description": "(2018) A Mass Spectrometry-Based Profiling of Interactomes of Viral DDB1- and Cullin Ubiquitin Ligase-Binding Proteins Reveals NF-kappaB Inhibitory Activity of the HIV-2-Encoded Vpx."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35625630",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.07e-07,
+        "fdr": 0.0254,
+        "description": "(2022) On the Study of Deubiquitinases: Using the Right Tools for the Job."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30699938",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.07e-07,
+        "fdr": 0.0254,
+        "description": "(2019) Targeting Hedgehog Signalling through the Ubiquitylation Process: The Multiple Roles of the HECT-E3 Ligase Itch."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31000580",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 40,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.93e-07,
+        "fdr": 0.0254,
+        "description": "(2019) Post-translational regulation of ubiquitin signaling."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:26883193",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 41,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O95817",
+            "P46934",
+            "P46937"
+        ],
+        "preferredNames": [
+            "BAG3",
+            "NEDD4",
+            "YAP1"
+        ],
+        "p_value": 2.07e-07,
+        "fdr": 0.0254,
+        "description": "(2016) Identification of novel pathways linking epithelial-to-mesenchymal transition with resistance to HER2-targeted therapy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:27008177",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 40,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 1.93e-07,
+        "fdr": 0.0254,
+        "description": "(2016) A SPOPLCullin-3 ubiquitin ligase complex regulates endocytic trafficking by targeting EPS15 at endosomes."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:24932569",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 40,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 1.93e-07,
+        "fdr": 0.0254,
+        "description": "(2014) WWOX at the crossroads of cancer, metabolic syndrome related traits and CNS pathologies."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:36091384",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 43,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 2.37e-07,
+        "fdr": 0.027,
+        "description": "(2022) The regulatory roles of the E3 ubiquitin ligase NEDD4 family in DNA damage response."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:37870169",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 44,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "ITCH"
+        ],
+        "p_value": 2.53e-07,
+        "fdr": 0.0282,
+        "description": "(2023) Inhibition of CK2ING4 Pathway Facilitates Non-Small Cell Lung Cancer Immunotherapy."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:34129913",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 44,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.53e-07,
+        "fdr": 0.0282,
+        "description": "(2022) The HECT family of E3 ubiquitin ligases and PTEN."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32311336",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 44,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.53e-07,
+        "fdr": 0.0282,
+        "description": "(2020) Coupling Conjugation and Deconjugation Activities to Achieve Cellular Ubiquitin Dynamics."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32296023",
+        "number_of_genes": 4,
+        "number_of_genes_in_background": 232,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 2.95e-07,
+        "fdr": 0.0308,
+        "description": "(2020) The role of ubiquitination in tumorigenesis and targeted drug discovery."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:31340145",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 48,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 3.25e-07,
+        "fdr": 0.0332,
+        "description": "(2019) USP9X Deubiquitylates DVL2 to Regulate WNT Pathway Specification."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29650031",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 49,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 3.45e-07,
+        "fdr": 0.0345,
+        "description": "(2018) The physiological role of Motin family and its dysregulation in tumorigenesis."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:29673168",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 50,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 3.65e-07,
+        "fdr": 0.0359,
+        "description": "(2018) Ubiquitin-Dependent Regulation of the Mammalian Hippo Pathway: Therapeutic Implications for Cancer."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:39106181",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 2,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46937"
+        ],
+        "preferredNames": [
+            "USP7",
+            "YAP1"
+        ],
+        "p_value": 4.63e-07,
+        "fdr": 0.0439,
+        "description": "(2024) Oxidative stress reprograms the transcriptional coactivator Yki to suppress cell proliferation."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:23519106",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 54,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 4.56e-07,
+        "fdr": 0.0439,
+        "description": "(2013) Ubiquitinations in the notch signaling pathway."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:35948545",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 55,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "USP7",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 4.81e-07,
+        "fdr": 0.0446,
+        "description": "(2022) USP7 regulates the ERK12 signaling pathway through deubiquitinating Raf-1 in lung adenocarcinoma."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:32460168",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 55,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 4.81e-07,
+        "fdr": 0.0446,
+        "description": "(2020) SPOP promotes ubiquitination and degradation of LATS1 to enhance kidney cancer progression."
+    },
+    {
+        "category": "PMID",
+        "term": "PMID:30619734",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 56,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.07e-07,
+        "fdr": 0.0453,
+        "description": "(2018) WW-Domain Containing Protein Roles in Breast Tumorigenesis."
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1236394",
+        "number_of_genes": 3,
+        "number_of_genes_in_background": 58,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "P46937",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "YAP1",
+            "ITCH"
+        ],
+        "p_value": 5.61e-07,
+        "fdr": 0.0013,
+        "description": "Signaling by ERBB4"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-1253288",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "P46934",
+            "Q96J02"
+        ],
+        "preferredNames": [
+            "NEDD4",
+            "ITCH"
+        ],
+        "p_value": 4.24e-06,
+        "fdr": 0.0048,
+        "description": "Downregulation of ERBB4 signaling"
+    },
+    {
+        "category": "RCTM",
+        "term": "HSA-8948747",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 9,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "Q93009",
+            "P46934"
+        ],
+        "preferredNames": [
+            "USP7",
+            "NEDD4"
+        ],
+        "p_value": 4.24e-06,
+        "fdr": 0.0048,
+        "description": "Regulation of PTEN localization"
+    },
+    {
+        "category": "HPO",
+        "term": "HP:0002744",
+        "number_of_genes": 2,
+        "number_of_genes_in_background": 7,
+        "ncbiTaxonId": 9606,
+        "inputGenes": [
+            "O43791",
+            "P46937"
+        ],
+        "preferredNames": [
+            "SPOP",
+            "YAP1"
+        ],
+        "p_value": 2.78e-06,
+        "fdr": 0.0339,
+        "description": "Bilateral cleft lip and palate"
+    }
+]
