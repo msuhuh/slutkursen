@@ -1,5 +1,5 @@
 # How to use the code
-This repository consists of the scripts and data used in order to run the human PPI clustering algorithm. The scripts divided in different repositories labeled in chronological order and should be followed accordingly:
+This repository consists of the scripts and data used in order to run the human PPI clustering algorithm. The scripts are divided in different repositories labeled in chronological order and should be followed accordingly:
 
 ## 01_preprocessing
 ### `01_collaps_vir_fam.py` 
