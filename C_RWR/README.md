@@ -2,14 +2,14 @@
 This repository consists of the scripts and data used in order to run the human PPI clustering algorithm. The scripts divided in different repositories labeled in chronological order and should be followed accordingly:
 
 ### 01_preprocessing
-`01_collaps_vir_fam.py` --> Collapses all human protein acession numbers related to a virus family in one file per family.
+- `01_collaps_vir_fam.py` --> Collapses all human protein acession numbers related to a virus family in one file per family.
 
 How to run the script:
 In the LOAD & EXTRACT DATA section, change the paths to where your dataset is and where you want the family files to be and then simply run: `python 01_collaps_vir_fam.py`
 
 ### 02_virus_propagation
 `02_run_propagation.sh` --> Runs the virus_propagation.py script (RWR algorithm) for each virus family.
-`virus_propagation.py` --> Runs the human PPI network algorithm with RWR. 
+`virus_propagation.py` --> Runs the human PPI network algorithm with RWR.
 `fisher_test_virus.py` --> Script used in virus_propagation.py to find functionally enriched pathways
 
 ### 03_cluster_generation:
