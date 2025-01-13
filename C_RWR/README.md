@@ -1,6 +1,6 @@
 This repository consists of the scripts and data used in order to run the human PPI clustering algorithm. The scripts divided in different repositories labeled in chronological order and should be followed accordingly:
 
-01_preprocessing:
+##01_preprocessing##:
 - 01_collaps_vir_fam.py --> Collapses all human protein acession numbers related to a virus family in one file per family.
 
 02_virus_propagation:
