@@ -60,5 +60,5 @@ Creates a figure showing the results from the cophenetic correlation coefficient
 Run `python 03_3_cophenetic_correlation_figure.py`
 
 ## Note
-If the cophenetic correlation coefficient analysis shows another parameter as the optimal number of clusters, one needs to change the `rank` parameter in row 176 in the `03_1_virus_signature.py` script and then re-run the `03_2_run_cophenetic_correlation.py script. 
+If the cophenetic correlation coefficient analysis shows another parameter as the optimal number of clusters, one needs to change the `rank` parameter in row 176 in the `03_1_virus_signature.py` script and then re-run the `03_2_run_cophenetic_correlation.py` script. 
 
