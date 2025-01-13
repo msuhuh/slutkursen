@@ -2,7 +2,7 @@
 This repository consists of the scripts and data used in order to run the human PPI clustering algorithm. The scripts divided in different repositories labeled in chronological order and should be followed accordingly:
 
 ## 01_preprocessing
-### - `01_collaps_vir_fam.py` 
+### `01_collaps_vir_fam.py` 
 Collapses all human protein acession numbers related to a virus family in one file per family.
 
 **Necessary input data:**
@@ -14,7 +14,8 @@ Collapses all human protein acession numbers related to a virus family in one fi
 
 
 ## 02_virus_propagation
-- `02_run_propagation.sh` --> Runs the virus_propagation.py script (RWR algorithm) for each virus family.
+### `02_run_propagation.sh` 
+Runs the `virus_propagation.py` script (RWR algorithm) for each virus family.
 
 **Necessary input data:**
 - `in_data_path` --> Path to virus family directory with all virus family files containing human protein accession numbers. 
@@ -23,22 +24,41 @@ Collapses all human protein acession numbers related to a virus family in one fi
 - `out_data_path` --> Path to results directory. 
 
 **How to run the script:**
-Simply run `bash 02_run propagation.sh`
+Run `bash 02_run propagation.sh`
 
-**Other scripts:**
+**Related scripts:**
 - `virus_propagation.py` --> Runs the human PPI network algorithm with RWR and is used in the `02_run_propagation.sh`script. 
 - `fisher_test_virus.py` --> Finds functionally enriched pathways and is used in the `virus_propagation.py`script.
 
 
 ## 03_cluster_generation:
-- `03_1_virus_signature.py` --> Uses the propagation results to create a significance matrix and the clusters.
+### `03_1_virus_signature.py` 
+Uses the propagation results to create a significance matrix and the clusters.
 
 **Necessary input data:**
 - Make sure the paths in the script lead to your specific results from the `02_run_propagation.sh`script.
 
 **How to run the script:**
 Run for example `03_1_virus_signature.py 0.3` where 0.3 represents the global frequency threshold, meaning only proteins found in >30% of the results of the virus family propagation results are included. 
- 
-- `cophenetic_correlation.py` --> Analysis of the cophenetic correlation coefficient in order to decide the number of clusters.  
-- `03_2_run_cophenetic_correlation.py` --> Runs the `cophenetic_correlation.py` script. 
-- `03_3_cophenetic_correlation_figure.py` --> Creates a figure showing the results from the cophenetic correlation coefficient analysis. 
+
+### `03_2_run_cophenetic_correlation.py` 
+Runs the `cophenetic_correlation.py` script. 
+
+**Necessary input data:**
+- range(X) --> X represents the number of times the script needs to run on the randmized sets. 
+
+**How to run the script:** 
+Run `python 03_2_run_cophenetic_correlation.py`
+
+**Related script:** 
+- `cophenetic_correlation.py` --> Analysis of the cophenetic correlation coefficient in order to decide the number of clusters.
+
+### `03_3_cophenetic_correlation_figure.py`
+Creates a figure showing the results from the cophenetic correlation coefficient analysis. 
+
+**How to run the script:** 
+Run `python 03_3_cophenetic_correlation_figure.py`
+
+## Note
+If the cophenetic correlation coefficient analysis shows another parameter as the optimal number of clusters, one needs to change the `rank` parameter in row 176 in the `03_1_virus_signature.py` script and then re-run the `03_2_run_cophenetic_correlation.py script. 
+
